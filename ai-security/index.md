@@ -23,12 +23,16 @@
 - [模型竊取](../knowledge/attacks/model-theft.md) — API 萃取、硬體攻擊、模型指紋防禦
 - [AI 驅動攻擊](../knowledge/attacks/offensive-ai.md) — AI 武器化、深偽、自主網路攻擊
 - [不安全輸出處理](../knowledge/attacks/insecure-output-handling.md) — LLM 輸出導致 XSS/SSRF/RCE
+- [Promptware Kill Chain](../knowledge/attacks/promptware-kill-chain.md) — 七階段 AI 攻擊鏈框架
+- [攻擊趨勢分析](../knowledge/attacks/attack-trends-analysis.md) — 2026 Q1 攻擊統計與趨勢
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
 - [沙箱與隔離](../knowledge/defenses/sandbox-isolation.md) — AI Agent 沙箱化技術與 Zero Trust
 - [權限控制與審計](../knowledge/defenses/permission-audit.md) — RBAC、審計日誌、OWASP 權限風險
 - [自動化決策治理](../knowledge/defenses/autonomous-decision-governance.md) — Agent 自主決策風險與治理框架
+- [OWASP Agentic AI Top 10](../knowledge/defenses/owasp-agentic-top10.md) — ASI01-ASI10 完整風險清單與防禦
+- [護欄與內容安全](../knowledge/defenses/guardrails-content-safety.md) — NeMo、Guardrails AI、Bedrock、Azure
 
 ### 工具與框架 (`/knowledge/tools/`)
 - [Red Teaming 工具](../knowledge/tools/red-teaming-tools.md) — 紅隊測試工具與安全框架
