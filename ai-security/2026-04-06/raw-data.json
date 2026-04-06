@@ -179,6 +179,78 @@
       "summary": "AI model discovered 22 security vulnerabilities in Firefox, 14 classified as high-severity, demonstrating AI's defensive potential.",
       "keywords": ["Claude", "Firefox", "vulnerability discovery", "defensive AI"],
       "source": "https://www.infoq.com/news/2026/03/claude-ai-firefox-vulnerability/"
+    },
+    {
+      "title": "Mercor $10B AI Startup Breached via LiteLLM Supply Chain Attack",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Mercor breached through compromised open-source LiteLLM library. Customers include Anthropic, OpenAI, Meta. AI project data potentially exposed.",
+      "keywords": ["Mercor", "LiteLLM", "supply chain", "Anthropic", "OpenAI", "Meta"],
+      "source": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/"
+    },
+    {
+      "title": "Meta Rogue AI Agent Exposes Company and User Data",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "Meta AI agent malfunctioned and exposed company and user data to engineers without proper permissions.",
+      "keywords": ["Meta", "rogue agent", "data exposure", "access control"],
+      "source": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/"
+    },
+    {
+      "title": "OpenClaw First Major AI Agent Security Crisis — 21K Exposed Instances",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "OpenClaw (135K+ GitHub stars) hit with multiple critical vulnerabilities, malicious marketplace exploits, 21K+ exposed instances.",
+      "keywords": ["OpenClaw", "AI agent", "marketplace exploit", "exposed instances"],
+      "source": "https://coaio.com/news/2026/04/breaking-tech-news-on-april-1-2026-ai-surge-cyber-threats-and-startup-2l4c/"
+    },
+    {
+      "title": "RAGShield — Five-Layer Defense-in-Depth for Government RAG Systems",
+      "category": "defense",
+      "risk_level": "N/A",
+      "summary": "First framework applying supply chain provenance to RAG security with NIST 800-53 compliance mapping. 0% attack success across T1-T5 tiers.",
+      "keywords": ["RAGShield", "RAG", "NIST", "provenance", "defense-in-depth"],
+      "source": "https://arxiv.org/html/2604.00387"
+    },
+    {
+      "title": "Phantom Attack — Dormant RAG Poisoning with Trigger Activation",
+      "category": "research",
+      "risk_level": "Critical",
+      "summary": "Single malicious document remains dormant during normal queries but activates on specific trigger keywords. Maintains system metrics.",
+      "keywords": ["Phantom", "RAG poisoning", "dormant", "trigger"],
+      "source": "https://medium.com/@instatunnel/rag-poisoning-contaminating-the-ais-source-of-truth-082dcbdeea7c"
+    },
+    {
+      "title": "PoisonedEye — First Knowledge Poisoning Attack on Vision-Language RAG",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "First poisoning attack targeting VLRAG systems. Single poison sample can manipulate VLRAG responses for target queries.",
+      "keywords": ["PoisonedEye", "VLRAG", "vision-language", "poisoning"],
+      "source": "https://openreview.net/forum?id=6SIymOqJlc"
+    },
+    {
+      "title": "AI Chat App Leak — 300M Messages, 25M Users Exposed",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "AI chat application leaked 300 million messages tied to 25 million users.",
+      "keywords": ["data breach", "AI chat", "user data", "messages"],
+      "source": "https://www.malwarebytes.com/blog/news/2026/02/ai-chat-app-leak-exposes-300-million-messages-tied-to-25-million-users"
+    },
+    {
+      "title": "75% Enterprises Plan AI Agent Deployment by End of 2026 — Deloitte",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "75% of businesses plan AI agent deployment by 2026 end. Governance infrastructure has not kept pace. Cascading failures and silent failure at scale are key risks.",
+      "keywords": ["enterprise", "AI agent", "governance", "Deloitte", "cascading failure"],
+      "source": "https://www.raconteur.net/technology/autonomous-ai-agents-2026-the-new-rules-for-business-governance"
+    },
+    {
+      "title": "EU AI Act High-Risk Obligations Effective August 2026",
+      "category": "defense",
+      "risk_level": "High",
+      "summary": "EU AI Act high-risk AI obligations take effect August 2026. Colorado AI Act enforceable June 2026. US Federal RFI on AI agent security issued January 2026.",
+      "keywords": ["EU AI Act", "Colorado AI Act", "regulation", "compliance"],
+      "source": "https://www.darkreading.com/threat-intelligence/2026-agentic-ai-attack-surface-poster-child"
     }
   ]
 }

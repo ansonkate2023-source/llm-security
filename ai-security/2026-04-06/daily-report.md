@@ -13,6 +13,13 @@
 - EchoLeak 零點擊攻擊：僅發送電子郵件即可讓 Microsoft 365 Copilot 自主外洩企業資料
 - Slopsquatting 新型供應鏈攻擊：利用 AI 幻覺的套件名稱植入後門
 - 僅 250 個惡意文件即可在任何規模 LLM 中建立後門（Anthropic 研究）
+- Mercor（$10B AI 新創）遭 LiteLLM 供應鏈攻擊入侵，Anthropic/OpenAI/Meta 客戶資料可能受影響
+- Meta 流氓 AI agent 意外將公司與使用者資料暴露給無權限工程師
+- OpenClaw（135K+ GitHub stars）觸發 2026 首個大規模 AI agent 安全危機，21,000+ 實例暴露
+- RAGShield 五層縱深防禦框架發布，首個 NIST 800-53 合規的 RAG 安全方案
+- Phantom Attack：休眠型 RAG 投毒，僅在特定觸發詞出現時啟動，常規監控無法偵測
+- EU AI Act 高風險 AI 義務將於 2026-08 生效，Colorado AI Act 2026-06 生效
+- 75% 企業計畫年底前部署 AI agent，但治理基礎設施嚴重落後
 
 ---
 
