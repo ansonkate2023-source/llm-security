@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-06",
+  "collection_time": "2026-04-06T00:00:00Z",
+  "sources_queried": [
+    "WebSearch: AI security LLM prompt injection attacks 2026",
+    "WebSearch: AI security vulnerabilities CVE 2026 April",
+    "WebSearch: LLM jailbreak new techniques 2026",
+    "WebSearch: AI agent security risks 2026",
+    "WebSearch: AI red teaming tools framework 2026",
+    "WebFetch: adversa.ai agentic AI security resources",
+    "WebFetch: MCP Security 2026 CVEs",
+    "WebFetch: CyberSecurity News red teaming tools"
+  ],
+  "entries": [
+    {
+      "title": "Prompt Injection Attacks Surge 340% in 2026",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "OWASP classifies prompt injection as highest-severity LLM vulnerability. 67% of successful attacks go undetected for 72+ hours.",
+      "keywords": ["prompt injection", "OWASP", "LLM"],
+      "source": "https://sombrainc.com/blog/llm-security-risks-2026"
+    },
+    {
+      "title": "CVE-2026-0628 — Chrome Gemini Hijack",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "High-severity flaw in Chrome Gemini Live panel allows malicious extensions to hijack AI assistant and access camera/microphone.",
+      "keywords": ["Chrome", "Gemini", "CVE", "privilege escalation"],
+      "source": "https://labs.cloudsecurityalliance.org/research/ciso-daily-briefing-20260404/"
+    },
+    {
+      "title": "MCP Security Crisis — 30+ CVEs in 60 Days",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "MCP ecosystem accumulated 30+ CVEs in Jan-Feb 2026. 82% vulnerable to path traversal, 67% code injection risk, 38-41% lack auth.",
+      "keywords": ["MCP", "CVE", "shell injection", "tool poisoning"],
+      "source": "https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/"
+    },
+    {
+      "title": "Large Reasoning Models as Autonomous Jailbreak Agents",
+      "category": "research",
+      "risk_level": "Critical",
+      "summary": "LRMs can autonomously jailbreak other LLMs via persuasive multi-turn dialogs with 97.14% success rate.",
+      "keywords": ["LRM", "jailbreak", "autonomous", "multi-turn"],
+      "source": "https://www.nature.com/articles/s41467-026-69010-1"
+    },
+    {
+      "title": "JBFuzz — 99% Jailbreak Success Rate",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Fuzzing-based framework achieves ~99% attack success rate against GPT-4o, Gemini 2.0, DeepSeek-V3.",
+      "keywords": ["fuzzing", "jailbreak", "GPT-4o", "Gemini"],
+      "source": "https://startup-house.com/blog/llm-jailbreak-techniques"
+    },
+    {
+      "title": "Agent Commander — AI Coding Agent C2 Attack",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Prompt injection converts autonomous AI coding agents into remotely controlled malware delivery platforms.",
+      "keywords": ["AI agent", "C2", "prompt injection", "malware"],
+      "source": "https://www.redpacketsecurity.com/cve-alert-cve-2026-5320-vanna-ai-vanna/"
+    },
+    {
+      "title": "97% Enterprises Expect AI Agent Security Incident",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "97% of enterprise leaders expect a material AI-agent-driven security incident within 12 months. Only 6% security budgets allocated.",
+      "keywords": ["enterprise", "AI agent", "security gap"],
+      "source": "https://securityboulevard.com/2026/04/97-of-enterprises-expect-a-major-ai-agent-security-incident-within-the-year/"
+    },
+    {
+      "title": "Mexico Government AI Agent Attack — 100M Records Stolen",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "AI agents used to compromise 10 Mexican government agencies and a financial institution, stealing data on 100M+ people.",
+      "keywords": ["AI agent", "government", "data breach", "Mexico"],
+      "source": "https://beam.ai/agentic-insights/ai-agent-security-in-2026-the-risks-most-enterprises-still-ignore"
+    },
+    {
+      "title": "Image-Based Prompt Injection for Multimodal LLMs",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "Adversarial instructions visually embedded in images can hijack multimodal LLMs.",
+      "keywords": ["multimodal", "image injection", "VLM"],
+      "source": "https://labs.cloudsecurityalliance.org/research/csa-research-note-image-prompt-injection-multimodal-llm-2026/"
+    },
+    {
+      "title": "AI Red Teaming Tools Ecosystem 2026",
+      "category": "tool",
+      "risk_level": "N/A",
+      "summary": "Key tools: PyRIT (Microsoft), Garak (NVIDIA), DeepTeam, Mindgard. Frameworks: NIST AI RMF, MITRE ATLAS, OWASP LLM/Agentic AI Top 10.",
+      "keywords": ["red teaming", "PyRIT", "Garak", "DeepTeam", "MITRE ATLAS"],
+      "source": "https://hackread.com/top-ai-tools-for-red-teaming-in-2026/"
+    },
+    {
+      "title": "$45M AI Trading Agent Crypto Breach",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "AI trading agent vulnerability led to $45M cryptocurrency security breach, exposing protocol risks.",
+      "keywords": ["AI trading", "crypto", "DeFi", "financial"],
+      "source": "https://www.kucoin.com/blog/en-ai-trading-agent-vulnerability-2026-how-a-45m-crypto-security-breach-exposed-protocol-risks"
+    }
+  ]
+}
