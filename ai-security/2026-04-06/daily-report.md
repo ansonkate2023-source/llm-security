@@ -35,6 +35,11 @@
 - Morris II AI 蠕蟲概念驗證：零點擊傳播、透過 RAG 自我複製、已在 Gemini/GPT-4/LLaVA 測試
 - AI-BOM 興起：DoD 發布 AI/ML 供應鏈風險指引，CycloneDX ML-BOM 標準
 - C2PA 隱寫術水印成為主流，Samsung Galaxy S25 首度整合原生 C2PA 簽名
+- LLM 微調攻擊：10 個樣本 / $0.20 即可移除 GPT-3.5 安全護欄，GRPO 技術可一個 prompt 破壞對齊
+- Drift DeFi 遭 $285M 漏洞利用 — 2026 年最大加密貨幣攻擊之一，AI 降低攻擊成本
+- Lapsus$ 駭客集團聲稱對 Mercor 攻擊負責，AI 產業面臨雙重安全事件衝擊
+- CoSAI 發布 AI 事件回應框架 v1.0 — 首個 OASIS CACAO 標準的 AI 安全 Playbook
+- AI 安全事件年增 56.4%，平均偵測時間 4.5 天，67% 源自模型錯誤而非攻擊
 
 ---
 

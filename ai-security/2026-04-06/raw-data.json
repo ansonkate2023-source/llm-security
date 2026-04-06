@@ -395,6 +395,54 @@
       "summary": "Samsung Galaxy S25 integrates native C2PA signing. EU AI Act mandates AI video labeling by Aug 2026. Steganographic watermarks survive re-encoding.",
       "keywords": ["C2PA", "watermarking", "steganography", "Samsung", "EU AI Act"],
       "source": "https://magiclight.ai/news/c2pa-and-global-watermarking-mandates-for-ai-video-in-2026/"
+    },
+    {
+      "title": "LLM Fine-Tuning Attack — 10 Samples/$0.20 Removes Safety Alignment",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "GPT-3.5 safety guardrails broken with 10 adversarial examples at $0.20. GRPO technique enables one-prompt safety removal. Even non-malicious fine-tuning can degrade alignment.",
+      "keywords": ["fine-tuning", "safety alignment", "GRPO", "jailbreak"],
+      "source": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/"
+    },
+    {
+      "title": "Drift DeFi Protocol $285M Exploit — AI Lowers Attack Costs",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Solana-based DeFi protocol Drift exploited for $285M. Ledger CTO warns AI drives down cost/difficulty of crypto attacks. Tasks taking months now done in seconds.",
+      "keywords": ["DeFi", "crypto", "Drift", "exploit", "$285M"],
+      "source": "https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns"
+    },
+    {
+      "title": "CoSAI AI Incident Response Framework v1.0 — OASIS CACAO Standard",
+      "category": "defense",
+      "risk_level": "High",
+      "summary": "First AI-specific IR playbooks in OASIS CACAO standard. AI incidents up 56.4%, avg 4.5 days to detect, 67% from model errors not attacks.",
+      "keywords": ["incident response", "CoSAI", "CACAO", "playbook"],
+      "source": "https://www.coalitionforsecureai.org/defending-ai-systems-a-new-framework-for-incident-response-in-the-age-of-intelligent-technology/"
+    },
+    {
+      "title": "Lapsus$ Claims Mercor Attack — Twin AI Industry Security Incidents",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Lapsus$ claims responsibility for Mercor data breach. Combined with Anthropic code leak, twin incidents leave AI industry shaken.",
+      "keywords": ["Lapsus$", "Mercor", "Anthropic", "AI industry"],
+      "source": "https://finance.yahoo.com/sectors/technology/article/twin-cybersecurity-incidents-leave-ai-industry-shaken-141850823.html"
+    },
+    {
+      "title": "AI Observability Platforms 2026 — From Debugging to Security Foundation",
+      "category": "tool",
+      "risk_level": "N/A",
+      "summary": "Key platforms: Confident AI/DeepEval (50+ metrics), Fiddler AI (security), Datadog, Arize AI, LangSmith, OpenObserve (open-source, 140x lower storage).",
+      "keywords": ["observability", "monitoring", "DeepEval", "Fiddler", "LangSmith"],
+      "source": "https://www.truefoundry.com/blog/best-ai-observability-platforms-for-llms-in-2026"
+    },
+    {
+      "title": "NIST AI 100-2e2025 — Adversarial Machine Learning Taxonomy",
+      "category": "research",
+      "risk_level": "Medium",
+      "summary": "NIST published updated adversarial ML taxonomy covering training-time attacks (poisoning, backdoors) and inference-time attacks (evasion, extraction, privacy leakage).",
+      "keywords": ["NIST", "adversarial ML", "taxonomy", "evasion", "extraction"],
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf"
     }
   ]
 }

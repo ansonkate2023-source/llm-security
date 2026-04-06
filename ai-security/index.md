@@ -26,6 +26,7 @@
 - [Promptware Kill Chain](../knowledge/attacks/promptware-kill-chain.md) — 七階段 AI 攻擊鏈框架
 - [攻擊趨勢分析](../knowledge/attacks/attack-trends-analysis.md) — 2026 Q1 攻擊統計與趨勢
 - [OpenClaw 安全危機](../knowledge/attacks/openclaw-crisis.md) — 2026 首個大規模 AI agent 安全危機深度分析
+- [微調安全攻擊](../knowledge/attacks/fine-tuning-attacks.md) — 10 個樣本 / $0.20 即可移除 LLM 安全對齊
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
@@ -37,7 +38,9 @@
 - [AI-BOM 與供應鏈安全](../knowledge/defenses/ai-bom-supply-chain.md) — AI Bill of Materials、MLSecOps
 - [水印與內容溯源](../knowledge/defenses/watermarking-provenance.md) — C2PA、隱寫術水印、模型指紋
 - [多 Agent 安全架構](../knowledge/defenses/multi-agent-security.md) — A2A 協議、Service Mesh、Morris II 蠕蟲
+- [事件回應](../knowledge/defenses/incident-response.md) — AI 特定 IR 框架、CoSAI、CISA Playbook
 
 ### 工具與框架 (`/knowledge/tools/`)
 - [Red Teaming 工具](../knowledge/tools/red-teaming-tools.md) — 紅隊測試工具與安全框架
 - [防禦工具](../knowledge/tools/defense-tools.md) — Agent 治理、沙箱平台、安全掃描
+- [可觀測性與監控](../knowledge/tools/observability-monitoring.md) — LLM 可觀測性平台、安全監控工具
