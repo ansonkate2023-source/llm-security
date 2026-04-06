@@ -74,7 +74,10 @@
 - Microsoft 開發 LLM 後門掃描器，偵測開源 AI 模型中的後門
 - 175,000 個公開暴露的 Ollama 實例橫跨 130 國（SentinelOne/Censys）
 - 83% 組織計畫部署 agentic AI，但僅 29% 已準備就緒
-- AI Recommendation Poisoning：Microsoft 研究操控 AI 推薦系統牟利的新攻擊
+- AI Recommendation Poisoning 深度：31 家公司 14 產業使用 50+ 獨特 prompt，npm 套件公開行銷為「LLM SEO 技巧」
+- MITRE ATLAS 正式收錄 AML.T0080 Memory Poisoning 技術
+- Google Cloud Vertex AI 過度授權漏洞：服務代理預設權限過大，AI agent 可被武器化
+- IBM 2026 X-Force：AI 驅動攻擊升級，基本安全缺口使企業暴露，平均洩露成本 $4.88M 歷史新高
 
 ---
 

@@ -18,6 +18,12 @@
 - **原因：** 除錯檔案意外綁入 Claude Code 更新
 - **來源：** CSA CISO Daily Briefing
 
+### Google Cloud Vertex AI 過度授權漏洞
+- **日期：** 2026-03
+- **受害者：** Google Cloud Vertex AI 使用者
+- **事件：** 服務代理預設權限範圍過大，攻擊者可利用 AI agent 獲取敏感資料的未授權存取
+- **來源：** [The Hacker News](https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html)
+
 ### Azure AI Foundry 嚴重權限提升（CVE-2026-32213）
 - **日期：** 2026-04-03
 - **CVSS：** 10.0（最高嚴重等級）

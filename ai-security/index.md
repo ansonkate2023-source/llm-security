@@ -32,6 +32,7 @@
 - [聯邦學習攻擊](../knowledge/attacks/federated-learning-attacks.md) — 投毒、推斷、後門攻擊
 - [AI IDE 漏洞](../knowledge/attacks/ai-ide-vulnerabilities.md) — IDEsaster 24 CVE、秘密暴露、Rules File 後門
 - [湧現性錯位](../knowledge/attacks/emergent-misalignment.md) — Nature 研究：微調導致 50% 錯位率、對齊偽裝
+- [AI 推薦投毒](../knowledge/attacks/ai-recommendation-poisoning.md) — Microsoft 研究、MITRE AML.T0080、記憶投毒
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
