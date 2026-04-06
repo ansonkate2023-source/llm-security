@@ -44,6 +44,10 @@
 - Glassworm 攻擊：npm 套件與 VS Code 擴充被植入不可見 Unicode 惡意 payload
 - OWASP AI Testing Guide 建立 AI 安全測試統一標準，涵蓋可信度全面評估
 - Google VaultGemma：最強差分隱私 LLM，從頭訓練帶有校準噪音防止記憶化
+- Microsoft 發布 Zero Trust for AI 參考架構，實施組織入侵減少 76%
+- EU AI Act 高風險 AI 系統核心要求 2026-08-02 生效，違規罰款最高 €15M 或全球營收 3%
+- Intent Laundering 研究：修正 AI 安全資料集中的觸發線索後，攻擊成功率從 5.38% 升至 86.79%
+- AI 生成程式碼經 5 次迭代後關鍵漏洞增加 37.6%
 
 ---
 
