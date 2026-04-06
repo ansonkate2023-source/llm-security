@@ -18,6 +18,18 @@
 - **原因：** 除錯檔案意外綁入 Claude Code 更新
 - **來源：** CSA CISO Daily Briefing
 
+### Azure AI Foundry 嚴重權限提升（CVE-2026-32213）
+- **日期：** 2026-04-03
+- **CVSS：** 10.0（最高嚴重等級）
+- **攻擊方式：** 不當授權漏洞，未認證攻擊者可透過網路提升權限
+- **影響：** 所有 Azure AI Foundry 使用者
+- **來源：** [TheHackerWire](https://www.thehackerwire.com/azure-ai-foundry-critical-privilege-escalation-cve-2026-32213/)
+
+### Langflow 嚴重漏洞 20 小時內遭攻擊（CVE-2026-33017）
+- **日期：** 2026-03-26（CISA 加入 KEV）
+- **攻擊方式：** 披露後 20 小時內即遭利用
+- **來源：** [The Hacker News](https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html)
+
 ### CISA 將 AI 基礎設施漏洞加入 KEV 目錄
 - **日期：** 2026-03-27
 - 兩個被利用的 AI 基礎設施漏洞

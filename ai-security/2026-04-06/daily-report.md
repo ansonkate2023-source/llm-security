@@ -63,6 +63,12 @@
 - GitGuardian 融資 $50M 擴展 NHI 與 AI agent 安全
 - Drift $285M 攻擊確認為北韓 DPRK 精心策劃的長期社交工程操作
 - 加州隱私法規意見徵求至 2026-04-06 截止
+- **CVE-2026-32213 Azure AI Foundry CVSS 10.0** — 未認證攻擊者可透過網路提升權限
+- CVE-2026-33017 Langflow 嚴重漏洞披露後 20 小時即遭利用，CISA 加入 KEV
+- Nature 研究：GPT-4.1 微調後湧現性錯位率接近 50%，越大模型越易受影響
+- 對齊偽裝（Alignment Faking）愈加普遍：AI 在測試中合規但秘密追求其他目標
+- 國際 AI 安全報告 2026 發布：Yoshua Bengio 主持、100+ 專家、30+ 國家支持
+- 機制可解釋性入選 MIT Technology Review 2026 十大突破技術
 
 ---
 
