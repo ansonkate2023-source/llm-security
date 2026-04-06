@@ -48,6 +48,12 @@
 - EU AI Act 高風險 AI 系統核心要求 2026-08-02 生效，違規罰款最高 €15M 或全球營收 3%
 - Intent Laundering 研究：修正 AI 安全資料集中的觸發線索後，攻擊成功率從 5.38% 升至 86.79%
 - AI 生成程式碼經 5 次迭代後關鍵漏洞增加 37.6%
+- IDEsaster：100% AI IDE 存在新型漏洞類別，24 CVE，180 萬開發者受影響（Copilot/Cursor/Windsurf/Claude Code）
+- AI coding 工具自動載入 .env 檔案，API 金鑰與密碼被傳送至 LLM 供應商
+- Rules File 後門攻擊：利用隱藏 Unicode 在 Cursor/Copilot 配置中注入惡意指令
+- CyberArk 研究：MCP server 的所有輸出都可能被投毒，不僅是工具描述
+- OWASP 發布 MCP Server 安全開發實務指南（2026-02）
+- Device Code Phishing 攻擊激增 37 倍，濫用 OAuth 2.0 Device Authorization Grant
 
 ---
 
