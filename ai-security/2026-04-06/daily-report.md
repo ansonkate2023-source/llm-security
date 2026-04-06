@@ -7,6 +7,12 @@
 - 大型推理模型（LRM）可自主對其他 LLM 執行 jailbreak，成功率達 97.14%
 - 97% 企業預期一年內將遭遇重大 AI Agent 安全事件，但僅 6% 安全預算投入此領域
 - AI 生成程式碼一週內揭露 35 個 CVE，87% AI PR 被標記安全問題
+- LangChain/LangGraph 揭露多個嚴重 CVE（CVSS 最高 9.3），影響數百萬 LLM 應用
+- Axios npm 套件遭北韓 UNC1069 入侵，影響數億 JavaScript 專案
+- Microsoft 發布 Agent Governance Toolkit 開源工具，涵蓋 OWASP Agentic AI Top 10
+- EchoLeak 零點擊攻擊：僅發送電子郵件即可讓 Microsoft 365 Copilot 自主外洩企業資料
+- Slopsquatting 新型供應鏈攻擊：利用 AI 幻覺的套件名稱植入後門
+- 僅 250 個惡意文件即可在任何規模 LLM 中建立後門（Anthropic 研究）
 
 ---
 

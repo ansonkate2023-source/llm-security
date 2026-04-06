@@ -99,6 +99,86 @@
       "summary": "AI trading agent vulnerability led to $45M cryptocurrency security breach, exposing protocol risks.",
       "keywords": ["AI trading", "crypto", "DeFi", "financial"],
       "source": "https://www.kucoin.com/blog/en-ai-trading-agent-vulnerability-2026-how-a-45m-crypto-security-breach-exposed-protocol-risks"
+    },
+    {
+      "title": "LangChain/LangGraph Critical CVEs — Files, Secrets, Databases Exposed",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "CVE-2026-34070 (path traversal, CVSS 7.5) and CVE-2025-68664 (deserialization, CVSS 9.3) in LangChain affect millions of LLM deployments.",
+      "keywords": ["LangChain", "LangGraph", "CVE", "path traversal", "deserialization"],
+      "source": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html"
+    },
+    {
+      "title": "Axios npm Package Compromised by North Korean UNC1069",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Confirmed April 2026 supply chain compromise of Axios npm package, downloaded by hundreds of millions of JS projects.",
+      "keywords": ["supply chain", "npm", "North Korea", "UNC1069"],
+      "source": "https://blog.mean.ceo/cybersecurity-news-april-2026/"
+    },
+    {
+      "title": "EchoLeak — Zero-Click Data Exfiltration via Microsoft 365 Copilot",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Specially crafted email causes Copilot to autonomously exfiltrate corporate data without any user action.",
+      "keywords": ["data exfiltration", "Microsoft 365", "Copilot", "zero-click"],
+      "source": "https://sombrainc.com/blog/llm-security-risks-2026"
+    },
+    {
+      "title": "LLM Memory Exfiltration via Image URL Encoding",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "Red team techniques using img tags, double TLD bypass, and RAG injection to exfiltrate LLM memory and secrets.",
+      "keywords": ["data exfiltration", "LLM memory", "red team", "RAG"],
+      "source": "https://alice.io/blog/llm-memory-exfiltration-red-team"
+    },
+    {
+      "title": "Slopsquatting — AI Hallucination Supply Chain Attack",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "Attackers register package names that LLMs hallucinate, injecting backdoors when developers install AI-suggested dependencies.",
+      "keywords": ["slopsquatting", "hallucination", "supply chain", "package"],
+      "source": "https://www.csoonline.com/article/3961304/ai-hallucinations-lead-to-new-cyber-threat-slopsquatting.html"
+    },
+    {
+      "title": "250 Documents Can Poison Any LLM — Anthropic Research",
+      "category": "research",
+      "risk_level": "Critical",
+      "summary": "As few as 250 malicious documents can create backdoor in any LLM regardless of model size or training data volume.",
+      "keywords": ["model poisoning", "backdoor", "training data", "Anthropic"],
+      "source": "https://www.anthropic.com/research/small-samples-poison"
+    },
+    {
+      "title": "Microsoft Agent Governance Toolkit — Open Source Runtime Security",
+      "category": "tool",
+      "risk_level": "N/A",
+      "summary": "First toolkit addressing all 10 OWASP agentic AI risks with sub-millisecond policy enforcement. Includes Agent OS, Mesh, Runtime, SRE, Compliance.",
+      "keywords": ["Microsoft", "Agent Governance", "OWASP", "open source"],
+      "source": "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/"
+    },
+    {
+      "title": "AI Sandbox Landscape 2026 — Firecracker, gVisor, V8 Isolates",
+      "category": "defense",
+      "risk_level": "N/A",
+      "summary": "AWS, Google, Azure all use strongest isolation primitives for AI. MicroVMs preferred over containers. Cloudflare Dynamic Workers in beta.",
+      "keywords": ["sandbox", "isolation", "Firecracker", "gVisor", "MicroVM"],
+      "source": "https://northflank.com/blog/how-to-sandbox-ai-agents"
+    },
+    {
+      "title": "GitHub Copilot RCE via PR Description Prompt Injection",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "CVE-2025-53773: Hidden prompt injection in PR descriptions enables RCE with GitHub Copilot. CVSS 9.6.",
+      "keywords": ["GitHub Copilot", "RCE", "prompt injection", "CVE"],
+      "source": "https://nationalcioreview.com/articles-insights/extra-bytes/security-in-2026-new-ways-attackers-are-exploiting-ai-systems/"
+    },
+    {
+      "title": "Claude Opus 4.6 Discovers 22 Firefox Vulnerabilities in Two Weeks",
+      "category": "defense",
+      "risk_level": "N/A",
+      "summary": "AI model discovered 22 security vulnerabilities in Firefox, 14 classified as high-severity, demonstrating AI's defensive potential.",
+      "keywords": ["Claude", "Firefox", "vulnerability discovery", "defensive AI"],
+      "source": "https://www.infoq.com/news/2026/03/claude-ai-firefox-vulnerability/"
     }
   ]
 }

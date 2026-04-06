@@ -13,9 +13,15 @@
 - [Jailbreak](../knowledge/attacks/jailbreak.md) — LLM 護欄繞過技術
 - [MCP 漏洞](../knowledge/attacks/mcp-vulnerabilities.md) — Model Context Protocol 安全危機
 - [AI Agent 攻擊](../knowledge/attacks/ai-agent-attacks.md) — Agent 系統安全威脅
+- [資料外洩](../knowledge/attacks/data-exfiltration.md) — LLM/RAG 資料外洩攻擊
+- [模型投毒](../knowledge/attacks/model-poisoning.md) — 訓練資料投毒與後門攻擊
+- [幻覺利用](../knowledge/attacks/hallucination-exploitation.md) — AI 幻覺的安全利用（Slopsquatting）
+- [供應鏈攻擊](../knowledge/attacks/supply-chain-attacks.md) — AI 框架與套件供應鏈入侵
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
+- [沙箱與隔離](../knowledge/defenses/sandbox-isolation.md) — AI Agent 沙箱化技術與 Zero Trust
 
 ### 工具與框架 (`/knowledge/tools/`)
 - [Red Teaming 工具](../knowledge/tools/red-teaming-tools.md) — 紅隊測試工具與安全框架
+- [防禦工具](../knowledge/tools/defense-tools.md) — Agent 治理、沙箱平台、安全掃描
