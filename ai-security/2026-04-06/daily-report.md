@@ -59,6 +59,10 @@
 - CISA 將 AI 基礎設施漏洞加入 KEV 目錄，LangChain/LangGraph 影響 8,400 萬次下載
 - Sage 開源工具：在 AI agent 與 OS 之間放置安全層
 - MCP-SafetyBench：首個基於真實 MCP server 的多輪安全評估基準（五大領域）
+- NHI 非人類身份超過人類 100:1，不到 25% 組織有正式 AI 身份政策
+- GitGuardian 融資 $50M 擴展 NHI 與 AI agent 安全
+- Drift $285M 攻擊確認為北韓 DPRK 精心策劃的長期社交工程操作
+- 加州隱私法規意見徵求至 2026-04-06 截止
 
 ---
 

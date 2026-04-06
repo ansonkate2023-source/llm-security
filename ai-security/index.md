@@ -48,6 +48,7 @@
 - [Zero Trust AI 架構](../knowledge/defenses/zero-trust-ai-architecture.md) — Microsoft 參考架構、分層防禦模式
 - [EU AI Act 合規](../knowledge/defenses/eu-ai-act-compliance.md) — 2026-08 高風險 AI 義務、合規清單
 - [MCP 安全防禦](../knowledge/defenses/mcp-security-guide.md) — OWASP MCP 指南、mcp-scan、防禦架構
+- [非人類身份安全](../knowledge/defenses/nhi-identity-security.md) — NHI 100:1 比例、AI Agent 身份管理
 
 ### 工具與框架 (`/knowledge/tools/`)
 - [Red Teaming 工具](../knowledge/tools/red-teaming-tools.md) — 紅隊測試工具與安全框架
