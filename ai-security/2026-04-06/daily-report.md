@@ -78,6 +78,11 @@
 - MITRE ATLAS 正式收錄 AML.T0080 Memory Poisoning 技術
 - Google Cloud Vertex AI 過度授權漏洞：服務代理預設權限過大，AI agent 可被武器化
 - IBM 2026 X-Force：AI 驅動攻擊升級，基本安全缺口使企業暴露，平均洩露成本 $4.88M 歷史新高
+- Cisco DefenseClaw 開源工具（RSAC 2026）：5 分鐘安裝、掃描 MCP 工具漏洞、2 秒封鎖 server
+- CrowdStrike 詳細：最快突破時間 27 秒、42% 漏洞在公開披露前已被利用、雲端入侵 +37%（國家級 +266%）
+- GenAI 工具被注入惡意 prompt 影響 90+ 組織（CrowdStrike）
+- Allama 開源 AI 安全自動化平台發布
+- Google 投資 AI 驅動的開源安全工具生態系
 
 ---
 

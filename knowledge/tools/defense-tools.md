@@ -60,10 +60,23 @@
 - **功能：** 三層風險分類法，AG2/AutoGen 整合
 - **適用：** 多 agent 系統安全治理
 
-### Cisco Agentic Workforce Security
-- **類型：** 商用
-- **功能：** 重新構想 agentic 工作力的安全
-- **來源：** [Cisco Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m03/cisco-reimagines-security-for-the-agentic-workforce.html)
+### Cisco DefenseClaw
+- **類型：** 開源
+- **發布：** RSAC 2026
+- **安裝：** 約 5 分鐘
+- **功能：** 掃描 AI agent 使用的 MCP 工具、plugin、資源的安全漏洞
+- **特點：**
+  - 追蹤 MCP 資源變更以捕捉新漏洞
+  - 2 秒內封鎖 MCP server（無需重啟 agent）
+  - 撤銷沙箱權限並隔離檔案
+  - 掃描 AI 生成程式碼的惡意碼，結果自動發送至 Splunk
+- **Duo IAM 整合：** 註冊 AI agent、限制工具存取、唯讀/修改權限、時間窗口限制
+- **來源：** [SiliconANGLE](https://siliconangle.com/2026/03/23/cisco-debuts-new-ai-agent-security-features-open-source-defenseclaw-tool/)
+
+### Allama — AI 安全自動化平台
+- **類型：** 開源
+- **功能：** AI 安全自動化
+- **來源：** [Help Net Security](https://www.helpnetsecurity.com/2026/02/09/allama-open-source-ai-security-automation-platform/)
 
 ## LLM 後門偵測
 

@@ -11,7 +11,10 @@
 | AI 驅動攻擊增長 | +89% | CrowdStrike |
 | AI 詐欺增長 | +1,210%（2025） | Industry |
 | 深偽攻擊增長 | +880% | Industry |
-| eCrime 突破時間 | 29 分鐘（↓65%） | CrowdStrike |
+| eCrime 突破時間 | 29 分鐘（↓65%），最快 27 秒 | CrowdStrike |
+| 漏洞在披露前已被利用 | 42% | CrowdStrike |
+| 雲端入侵增長 | +37%（國家級 +266%） | CrowdStrike |
+| GenAI 工具被注入惡意 prompt | 90+ 組織 | CrowdStrike |
 | 全球平均資料洩露成本 | $4.88M | IBM |
 | 網路犯罪損失 | $16.6B（↑33%） | FBI/IC3 |
 | Prompt injection 增長 | +340% | OWASP |
