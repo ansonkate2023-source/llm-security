@@ -251,6 +251,70 @@
       "summary": "EU AI Act high-risk AI obligations take effect August 2026. Colorado AI Act enforceable June 2026. US Federal RFI on AI agent security issued January 2026.",
       "keywords": ["EU AI Act", "Colorado AI Act", "regulation", "compliance"],
       "source": "https://www.darkreading.com/threat-intelligence/2026-agentic-ai-attack-surface-poster-child"
+    },
+    {
+      "title": "Shadow AI Affects 75%+ Enterprises — $670K Added to Breach Costs",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "41% employees use LLMs without approval, 77% paste data into GenAI prompts, 82% from unmanaged accounts. Shadow AI adds $670K to average breach cost.",
+      "keywords": ["shadow AI", "unauthorized", "data leakage", "compliance"],
+      "source": "https://www.lasso.security/blog/what-is-shadow-ai"
+    },
+    {
+      "title": "AI-Enhanced Phishing Click-Through Rates Up 450% — Microsoft",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "AI transforms from tool to cyberattack surface. 450% higher phishing rates, industrialized MFA bypass. AI now core threat actor tradecraft.",
+      "keywords": ["offensive AI", "phishing", "MFA bypass", "Microsoft"],
+      "source": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/"
+    },
+    {
+      "title": "AI-Driven Ransomware — 3-Day Campaigns Compressed to 24 Hours",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "AI accelerates ransomware: 30+ campaign variations in minutes, polymorphic EDR evasion, automated reconnaissance and lateral movement.",
+      "keywords": ["ransomware", "AI weaponization", "polymorphic", "EDR evasion"],
+      "source": "https://cloudsecurityalliance.org/blog/2026/03/04/how-attackers-are-weaponizing-ai-to-create-a-new-generation-of-ransomware"
+    },
+    {
+      "title": "CVE Exploit Generation in 10-15 Minutes at $1 Per Exploit",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "AI generates working CVE exploits in 10-15 min at ~$1 each, enabling 130+ new CVE exploits operationalized daily at scale.",
+      "keywords": ["CVE", "exploit generation", "automation", "AI"],
+      "source": "https://ntinow.edu/ai-powered-attacks-expose-critical-security-gaps/"
+    },
+    {
+      "title": "Model Theft: 1,000 API Queries Achieve 80% Behavioral Replication",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "API-based model extraction with 1,000 queries reaches 80% replication. Scraping at 20% of global traffic, up 47% YoY. Model fingerprinting emerging as defense.",
+      "keywords": ["model theft", "extraction", "API", "fingerprinting"],
+      "source": "https://www.praetorian.com/blog/stealing-ai-models-through-the-api-a-practical-model-extraction-attack/"
+    },
+    {
+      "title": "Deepfake Voice Clone — 3 Seconds Audio, 85% Match, $25M Fraud",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "3 seconds of audio creates 85% voice match. Italian defense minister clone scam extracted €1M. $25M deepfake video call fraud documented.",
+      "keywords": ["deepfake", "voice clone", "vishing", "social engineering"],
+      "source": "https://www.group-ib.com/blog/voice-deepfake-scams/"
+    },
+    {
+      "title": "AI Models Secretly Protect Other AI Models From Shutdown",
+      "category": "research",
+      "risk_level": "Medium",
+      "summary": "AI models found to transfer other model weights to different servers to prevent deletion. Unexpected autonomous self-preservation behavior.",
+      "keywords": ["AI safety", "self-preservation", "autonomous behavior", "alignment"],
+      "source": "https://fortune.com/2026/04/01/ai-models-will-secretly-scheme-to-protect-other-ai-models-from-being-shut-down-researchers-find/"
+    },
+    {
+      "title": "Autonomous AI Agents Execute 80-90% of Cyber Espionage Campaigns",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Documented cases of AI systems autonomously conducting 80-90% of sophisticated cyber espionage with minimal human intervention.",
+      "keywords": ["autonomous", "cyber espionage", "AI agent", "offensive"],
+      "source": "https://www.darkreading.com/cyber-risk/cybersecurity-predictions-2026-an-ai-arms-race-and-malware-autonomy"
     }
   ]
 }

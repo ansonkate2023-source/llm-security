@@ -19,6 +19,10 @@
 - [供應鏈攻擊](../knowledge/attacks/supply-chain-attacks.md) — AI 框架與套件供應鏈入侵
 - [RAG 投毒](../knowledge/attacks/rag-poisoning.md) — RAG 管道知識庫投毒攻擊與防禦
 - [真實事件](../knowledge/attacks/real-world-incidents.md) — 2026 年真實世界 AI 安全事件彙整
+- [Shadow AI](../knowledge/attacks/shadow-ai.md) — 企業未授權 AI 使用風險
+- [模型竊取](../knowledge/attacks/model-theft.md) — API 萃取、硬體攻擊、模型指紋防禦
+- [AI 驅動攻擊](../knowledge/attacks/offensive-ai.md) — AI 武器化、深偽、自主網路攻擊
+- [不安全輸出處理](../knowledge/attacks/insecure-output-handling.md) — LLM 輸出導致 XSS/SSRF/RCE
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
