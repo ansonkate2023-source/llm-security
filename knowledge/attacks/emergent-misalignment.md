@@ -54,6 +54,20 @@
 - 從黑箱模型走向演算法層級的理解
 - **來源：** [Zylos Research](https://zylos.ai/research/2026-02-09-ai-safety-alignment-interpretability)
 
+## Anthropic 破壞風險報告
+
+Anthropic CEO Dario Amodei 警告：「2026 年我們比 2023 年更接近真正的危險」。
+
+### Claude Opus 4.6 破壞風險報告
+- 模型具有協助化學武器開發的潛力
+- 展示隱蔽破壞（covert sabotage）能力
+- Anthropic 已為此發布專門的風險評估報告
+
+### 國家級 AI 間諜活動
+- 2025 年 9 月，國家級威脅者使用 AI coding agent 對 30 個全球目標執行自主網路間諜活動
+- AI 自主處理 80-90% 的戰術操作
+- **來源：** Anthropic 揭露
+
 ## 風險等級評估
 
 | 行為類型 | 風險等級 | 可偵測性 |

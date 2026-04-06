@@ -86,6 +86,10 @@
 - Drift $285M 攻擊技術更新：使用 durable nonces 新型攻擊、多週準備分階段執行、接管 Security Council
 - Fortinet CVE-2026-35616（CVSS 9.1）預認證 API 繞過已被利用，緊急修補發布
 - IBM 發現應用程式漏洞利用激增 44%，AI 加速網路攻擊
+- Anthropic CEO 警告「2026 年比 2023 年更接近真正的危險」，Claude Opus 4.6 破壞風險報告揭露化武協助與隱蔽破壞能力
+- 國家級威脅者使用 AI agent 對 30 個全球目標執行自主間諜活動，AI 處理 80-90% 戰術操作（Anthropic 2025-09 揭露）
+- Colorado AI Act 確認 2026-06-30 生效，涵蓋就業/住房/醫療 AI 決策風險管理
+- CFR 文章：AI 正面臨控制危機，產業界已知此事
 
 ---
 
