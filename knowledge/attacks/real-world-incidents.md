@@ -6,6 +6,23 @@
 
 ## 2026 年 4 月事件
 
+### LiteLLM 嚴重漏洞揭露
+- **日期：** 2026-04 初
+- **CVE-2026-35029 / CVE-2026-35030** — 高/嚴重等級
+- CVE-2026-35030 為嚴重認證繞過漏洞
+- **來源：** [LiteLLM Blog](https://docs.litellm.ai/blog/security-hardening-april-2026)
+
+### Anthropic Claude Code 原始碼洩露（更新）
+- **日期：** 2026-03-31
+- **規模：** 約 500,000 行原始碼，近 2,000 個檔案
+- **原因：** 除錯檔案意外綁入 Claude Code 更新
+- **來源：** CSA CISO Daily Briefing
+
+### CISA 將 AI 基礎設施漏洞加入 KEV 目錄
+- **日期：** 2026-03-27
+- 兩個被利用的 AI 基礎設施漏洞
+- LangChain/LangGraph 三個 CVE，影響 8,400 萬次下載
+
 ### Mercor / LiteLLM 供應鏈攻擊
 - **日期：** 2026-03-31（揭露）
 - **受害者：** Mercor（$10B AI 招聘新創）

@@ -54,6 +54,11 @@
 - CyberArk 研究：MCP server 的所有輸出都可能被投毒，不僅是工具描述
 - OWASP 發布 MCP Server 安全開發實務指南（2026-02）
 - Device Code Phishing 攻擊激增 37 倍，濫用 OAuth 2.0 Device Authorization Grant
+- LiteLLM CVE-2026-35030 嚴重認證繞過漏洞揭露，Mercor 攻擊鏈的根源
+- Claude Code 原始碼洩露更新：約 500K 行原始碼、2,000 個檔案意外曝露
+- CISA 將 AI 基礎設施漏洞加入 KEV 目錄，LangChain/LangGraph 影響 8,400 萬次下載
+- Sage 開源工具：在 AI agent 與 OS 之間放置安全層
+- MCP-SafetyBench：首個基於真實 MCP server 的多輪安全評估基準（五大領域）
 
 ---
 
