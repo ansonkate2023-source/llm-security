@@ -40,6 +40,10 @@
 - Lapsus$ 駭客集團聲稱對 Mercor 攻擊負責，AI 產業面臨雙重安全事件衝擊
 - CoSAI 發布 AI 事件回應框架 v1.0 — 首個 OASIS CACAO 標準的 AI 安全 Playbook
 - AI 安全事件年增 56.4%，平均偵測時間 4.5 天，67% 源自模型錯誤而非攻擊
+- ProxyPrompt 防禦系統提示洩露達 94.70% 保護率，大幅領先次佳方案 42.80%
+- Glassworm 攻擊：npm 套件與 VS Code 擴充被植入不可見 Unicode 惡意 payload
+- OWASP AI Testing Guide 建立 AI 安全測試統一標準，涵蓋可信度全面評估
+- Google VaultGemma：最強差分隱私 LLM，從頭訓練帶有校準噪音防止記憶化
 
 ---
 

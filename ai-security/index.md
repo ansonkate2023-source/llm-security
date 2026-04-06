@@ -27,6 +27,8 @@
 - [攻擊趨勢分析](../knowledge/attacks/attack-trends-analysis.md) — 2026 Q1 攻擊統計與趨勢
 - [OpenClaw 安全危機](../knowledge/attacks/openclaw-crisis.md) — 2026 首個大規模 AI agent 安全危機深度分析
 - [微調安全攻擊](../knowledge/attacks/fine-tuning-attacks.md) — 10 個樣本 / $0.20 即可移除 LLM 安全對齊
+- [系統提示洩露](../knowledge/attacks/system-prompt-leakage.md) — OWASP 新增風險、ProxyPrompt 防禦
+- [Unicode 隱形攻擊](../knowledge/attacks/unicode-invisible-attacks.md) — 變體選擇器、Glassworm 供應鏈攻擊
 
 ### 防禦策略 (`/knowledge/defenses/`)
 - [Prompt Injection 防禦](../knowledge/defenses/prompt-injection-defense.md) — 多層防禦策略
@@ -39,6 +41,8 @@
 - [水印與內容溯源](../knowledge/defenses/watermarking-provenance.md) — C2PA、隱寫術水印、模型指紋
 - [多 Agent 安全架構](../knowledge/defenses/multi-agent-security.md) — A2A 協議、Service Mesh、Morris II 蠕蟲
 - [事件回應](../knowledge/defenses/incident-response.md) — AI 特定 IR 框架、CoSAI、CISA Playbook
+- [LLM 滲透測試](../knowledge/defenses/llm-pentesting-methodology.md) — OWASP AI Testing Guide、測試清單
+- [隱私保護技術](../knowledge/defenses/privacy-preserving-llm.md) — 差分隱私、VaultGemma、DP-SGD
 
 ### 工具與框架 (`/knowledge/tools/`)
 - [Red Teaming 工具](../knowledge/tools/red-teaming-tools.md) — 紅隊測試工具與安全框架
