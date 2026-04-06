@@ -83,6 +83,9 @@
 - GenAI 工具被注入惡意 prompt 影響 90+ 組織（CrowdStrike）
 - Allama 開源 AI 安全自動化平台發布
 - Google 投資 AI 驅動的開源安全工具生態系
+- Drift $285M 攻擊技術更新：使用 durable nonces 新型攻擊、多週準備分階段執行、接管 Security Council
+- Fortinet CVE-2026-35616（CVSS 9.1）預認證 API 繞過已被利用，緊急修補發布
+- IBM 發現應用程式漏洞利用激增 44%，AI 加速網路攻擊
 
 ---
 

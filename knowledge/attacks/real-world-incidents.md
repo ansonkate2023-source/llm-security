@@ -82,6 +82,16 @@
 - **影響：** 超過 1 億人的資料被竊取
 - **風險等級：** Critical
 
+### Drift DEX $285M 漏洞利用（更新）
+- **日期：** 2026-04-01
+- **受害者：** Drift（Solana DEX）
+- **攻擊方式：** 使用 durable nonces 的新型攻擊，未授權接管 Security Council 管理權限
+- **準備：** 多週準備與分階段執行
+- **影響：** $285M 被盜
+- **歸因：** 北韓 DPRK 精心策劃的社交工程操作
+- **風險等級：** Critical
+- **來源：** [CoinDesk](https://www.coindesk.com/tech/2026/04/05/ai-is-making-crypto-s-security-problem-even-worse-ledger-cto-warns)
+
 ### $45M AI 交易 Agent 加密貨幣漏洞
 - **日期：** 2026 Q1
 - **受害者：** 加密貨幣協議
