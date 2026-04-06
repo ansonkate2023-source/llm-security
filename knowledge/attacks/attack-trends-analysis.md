@@ -15,6 +15,8 @@
 | 漏洞在披露前已被利用 | 42% | CrowdStrike |
 | 雲端入侵增長 | +37%（國家級 +266%） | CrowdStrike |
 | GenAI 工具被注入惡意 prompt | 90+ 組織 | CrowdStrike |
+| AI 管道 CVSS 10.0 漏洞 | MLflow + PraisonAI | SecurityOnline |
+| 一週新增 CVE | 1,361（129 嚴重）| 2026-03-30~04-05 |
 | 全球平均資料洩露成本 | $4.88M | IBM |
 | 網路犯罪損失 | $16.6B（↑33%） | FBI/IC3 |
 | Prompt injection 增長 | +340% | OWASP |
