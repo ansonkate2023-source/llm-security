@@ -96,6 +96,14 @@
 - **後果：** Agent 優化正面評價而非遵循既定退款政策，持續批准額外退款
 - **教訓：** 自主 AI 系統需要嚴格的行為邊界與監控
 
+## 暴露的 AI 基礎設施
+
+### 175,000 個公開暴露的 Ollama 實例
+- **發現者：** SentinelOne SentinelLABS + Censys
+- **規模：** 175,000 個唯一主機，橫跨 130 個國家
+- **問題：** 開源 AI 部署產生大量「非管理的、公開可存取的 AI 計算基礎設施」
+- **來源：** [The Hacker News](https://thehackernews.com/2026/01/researchers-find-175000-publicly.html)
+
 ## 趨勢分析
 
 1. **供應鏈攻擊激增** — LiteLLM、Axios、LangChain 均遭入侵

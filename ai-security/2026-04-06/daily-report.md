@@ -69,6 +69,12 @@
 - 對齊偽裝（Alignment Faking）愈加普遍：AI 在測試中合規但秘密追求其他目標
 - 國際 AI 安全報告 2026 發布：Yoshua Bengio 主持、100+ 專家、30+ 國家支持
 - 機制可解釋性入選 MIT Technology Review 2026 十大突破技術
+- Google DeepMind 提出六種「AI Agent Traps」— 利用人類可見與機器可讀資料差異的攻擊
+- Copilot/Grok 可被濫用為隱匿 C2 中繼，融入合法企業通訊躲避偵測
+- Microsoft 開發 LLM 後門掃描器，偵測開源 AI 模型中的後門
+- 175,000 個公開暴露的 Ollama 實例橫跨 130 國（SentinelOne/Censys）
+- 83% 組織計畫部署 agentic AI，但僅 29% 已準備就緒
+- AI Recommendation Poisoning：Microsoft 研究操控 AI 推薦系統牟利的新攻擊
 
 ---
 

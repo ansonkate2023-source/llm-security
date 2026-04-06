@@ -65,6 +65,14 @@
 - **功能：** 重新構想 agentic 工作力的安全
 - **來源：** [Cisco Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m03/cisco-reimagines-security-for-the-agentic-workforce.html)
 
+## LLM 後門偵測
+
+### Microsoft LLM Backdoor Scanner
+- **類型：** 商用/研究
+- **功能：** 偵測開源 AI 模型中的後門
+- **目標：** 解決依賴第三方 LLM 的企業的關鍵盲點
+- **來源：** [The Hacker News](https://thehackernews.com/search/label/LLM%20Security)
+
 ## 安全基準測試工具
 
 ### MCP-SafetyBench
