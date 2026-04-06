@@ -355,6 +355,46 @@
       "summary": "Defense-in-depth with multi-layer guardrails. Key tools: NVIDIA NeMo (DSL-based), Guardrails AI (50+ validators), Amazon Bedrock, Azure Content Safety, Zscaler.",
       "keywords": ["guardrails", "NeMo", "content safety", "defense-in-depth"],
       "source": "https://www.programming-helper.com/tech/ai-guardrails-2026-enterprise-safety-guardians-secure-ai-deployment"
+    },
+    {
+      "title": "OpenClaw Deep Dive: 200K Stars, 135K Exposed, 820 Malicious Skills, CVE-2026-25253",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "OpenClaw surpassed React on GitHub. Localhost trust vulnerability (CVSS 8.8) allows full device control. 820+ malicious skills on ClawHub. 9 CVEs in 4 days.",
+      "keywords": ["OpenClaw", "CVE-2026-25253", "localhost trust", "malicious skills"],
+      "source": "https://www.darkreading.com/application-security/critical-openclaw-vulnerability-ai-agent-risks"
+    },
+    {
+      "title": "A2A Protocol — Linux Foundation Multi-Agent Security Standard",
+      "category": "defense",
+      "risk_level": "High",
+      "summary": "Google's A2A protocol now under Linux Foundation. HTTPS/mTLS encryption, SPIFFE identity, cross-org PKI trust. Addresses spoofing, replay, privilege escalation.",
+      "keywords": ["A2A", "multi-agent", "Linux Foundation", "mTLS", "SPIFFE"],
+      "source": "https://www.linuxfoundation.org/press/linux-foundation-launches-the-agent2agent-protocol-project-to-enable-secure-intelligent-communication-between-ai-agents"
+    },
+    {
+      "title": "Morris II AI Worm — Zero-Click Self-Replicating GenAI Malware",
+      "category": "research",
+      "risk_level": "Critical",
+      "summary": "First AI worm using adversarial self-replicating prompts. Zero-click propagation via RAG. Tested on Gemini Pro, GPT-4, LLaVA. Not yet seen in the wild.",
+      "keywords": ["Morris II", "AI worm", "self-replicating", "zero-click", "RAG"],
+      "source": "https://arxiv.org/abs/2403.02817"
+    },
+    {
+      "title": "AI-BOM and ML-BOM — Supply Chain Security for AI Era",
+      "category": "defense",
+      "risk_level": "High",
+      "summary": "AI models as third-party dependencies that traditional scanners can't read. CycloneDX ML-BOM standard. DoD published AI/ML supply chain risk guidance March 2026.",
+      "keywords": ["AI-BOM", "ML-BOM", "CycloneDX", "DoD", "supply chain"],
+      "source": "https://sdtimes.com/ai/from-sbom-to-ai-bom-rethinking-supply-chain-security-for-ai-native-software/"
+    },
+    {
+      "title": "C2PA Steganographic Watermarking Goes Mainstream in 2026",
+      "category": "defense",
+      "risk_level": "Medium",
+      "summary": "Samsung Galaxy S25 integrates native C2PA signing. EU AI Act mandates AI video labeling by Aug 2026. Steganographic watermarks survive re-encoding.",
+      "keywords": ["C2PA", "watermarking", "steganography", "Samsung", "EU AI Act"],
+      "source": "https://magiclight.ai/news/c2pa-and-global-watermarking-mandates-for-ai-video-in-2026/"
     }
   ]
 }

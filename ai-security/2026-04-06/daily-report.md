@@ -30,6 +30,11 @@
 - OWASP Agentic AI Top 10 發布，48% 資安專業人士認為 agentic AI 是首要攻擊向量
 - AI 驅動攻擊 +89%（CrowdStrike）、AI 詐欺 +1,210%、深偽 +880%、eCrime 突破時間 29 分鐘
 - Gartner：年底前 40% 企業應用將整合 AI agent（2025 僅 5%），但僅 11% 有專門 AI 安全工具
+- OpenClaw 深度分析：200K+ GitHub stars，135K+ 暴露實例，820+ 惡意 Skills（+153%），CVE-2026-25253 CVSS 8.8
+- A2A Protocol 由 Linux Foundation 正式接管，成為多 Agent 安全協作開放標準
+- Morris II AI 蠕蟲概念驗證：零點擊傳播、透過 RAG 自我複製、已在 Gemini/GPT-4/LLaVA 測試
+- AI-BOM 興起：DoD 發布 AI/ML 供應鏈風險指引，CycloneDX ML-BOM 標準
+- C2PA 隱寫術水印成為主流，Samsung Galaxy S25 首度整合原生 C2PA 簽名
 
 ---
 
