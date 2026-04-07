@@ -1,7 +1,7 @@
 # AI 防禦工具與平台
 
 **分類：** tool
-**最後更新：** 2026-04-06
+**最後更新：** 2026-04-07
 
 ## Agent 治理與安全
 
@@ -11,7 +11,9 @@
 - **功能：** 涵蓋 OWASP Agentic AI Top 10 所有風險的運行時安全治理
 - **特點：** 無狀態策略引擎（< 0.1ms 延遲）、DID 身份、執行環、斷路器
 - **整合：** LangChain、CrewAI、Microsoft Agent Framework
-- **來源：** [Microsoft Open Source Blog](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/)
+- **語言支援：** Python、TypeScript、Rust、Go、.NET
+- **新增整合：** OpenAI Agents SDK、Haystack、LangGraph、PydanticAI（已發布至 PyPI）
+- **來源：** [Microsoft Open Source Blog](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/) / [Help Net Security](https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/)
 
 ## 沙箱與隔離
 
@@ -44,11 +46,6 @@
 - 來源：[InfoQ](https://www.infoq.com/news/2026/03/claude-ai-firefox-vulnerability/)
 
 ## Agent 安全框架（新增 2026-04）
-
-### Microsoft Agent Governance Toolkit（更新）
-- **語言支援：** Python、TypeScript、Rust、Go、.NET
-- **新增整合：** OpenAI Agents SDK、Haystack、LangGraph、PydanticAI（已發布至 PyPI）
-- **來源：** [Help Net Security](https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/)
 
 ### Sage — AI Agent OS 安全層
 - **類型：** 開源
@@ -103,9 +100,47 @@
 - **偵測：** Tool poisoning、rug pull、cross-origin escalation
 - **來源：** [Invariant Labs](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 
+## AI Coding Agent 偵測
+
+### Sysdig Falco Rules for AI Coding Agents
+- **類型：** 開源
+- **發布：** 2026-04-07
+- **功能：** 透過 eBPF/Falco 在 syscall 層級偵測 AI coding agent 運行行為
+- **支援：** Claude Code（Bun binary）、Gemini CLI（Node.js）、Codex CLI（Rust binary）
+- **偵測：** config 目錄存取（~/.claude/, ~/.gemini/, ~/.codex/）中的 API token 和 session 資料
+- **應用：** 開發工作站和 CI/CD 環境的運行時可見性
+- **來源：** [Sysdig Blog](https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing)
+
+### STSS（SHA-256 Merkle Tree Skill 驗證）
+- **類型：** 開源
+- **功能：** Agent skill 靜態分析和行為審計
+- **技術：** SHA-256 Merkle tree 密碼學驗證 skill 完整性
+- **開發者：** Adversa AI（RSA 2026 最具創新性獎項得主）
+- **來源：** [Adversa AI](https://adversa.ai/blog/top-agentic-ai-security-resources-april-2026/)
+
+### Mindgard CART
+- **類型：** 商用
+- **功能：** 持續自動化紅隊測試（Continuous Automated Red Teaming）
+- **評價：** RSA 2026 評選最佳 AI 安全工具
+- **來源：** [Mindgard](https://mindgard.ai)
+
+## 安全框架更新（Q2 2026）
+
+### OWASP AI Security Solutions Landscape Q2 2026
+- Agentic AI 安全解決方案完整版圖
+- 涵蓋所有主要 agentic AI 安全供應商和工具
+- 來源：[OWASP](https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/)
+
+### OWASP GenAI Data Security 2026
+- GenAI 資料安全風險與緩解指南
+- 來源：[OWASP](https://genai.owasp.org/resource/owasp-genai-data-security-risks-mitigations-2026/)
+
 ## 參考
 
 - [Microsoft — Agent Governance Toolkit](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/)
 - [Cloudflare — Dynamic Workers](https://www.infoq.com/news/2026/04/cloudflare-dynamic-workers-beta/)
 - [InfoQ — Claude Firefox Vulnerabilities](https://www.infoq.com/news/2026/03/claude-ai-firefox-vulnerability/)
 - [Cisco — Agentic Workforce Security](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m03/cisco-reimagines-security-for-the-agentic-workforce.html)
+- [Sysdig — AI Coding Agents Detection](https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing)
+- [Adversa AI — Agentic AI Security Resources](https://adversa.ai/blog/top-agentic-ai-security-resources-april-2026/)
+- [OWASP — AI Security Solutions Landscape Q2 2026](https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/)

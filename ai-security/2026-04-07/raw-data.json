@@ -1,0 +1,147 @@
+{
+  "date": "2026-04-07",
+  "collection_time": "2026-04-07T00:00:00Z",
+  "sources_queried": [
+    "WebSearch: AI security vulnerability April 2026",
+    "WebSearch: LLM prompt injection attack 2026",
+    "WebSearch: AI agent security exploit 2026",
+    "WebSearch: machine learning CVE 2026 LangChain LlamaIndex vLLM",
+    "WebSearch: AI red teaming tools 2026",
+    "WebSearch: GenAI security research April 2026",
+    "WebSearch: CrewAI CVE vulnerability prompt injection RCE 2026",
+    "WebSearch: OpenClaw AI agent security vulnerability CVE-2026-25253",
+    "WebSearch: Microsoft threat actor AI abuse April 2026",
+    "WebSearch: liteLLM security vulnerability disclosure April 2026",
+    "WebSearch: MCP server prompt injection tool poisoning attack 2026",
+    "WebSearch: OWASP agentic AI top 10 security risks 2026",
+    "WebSearch: AI deepfake voice phishing attack April 2026",
+    "WebSearch: Adversa AI agentic AI security resources April 2026",
+    "WebSearch: AI supply chain attack PyPI malicious package 2026",
+    "WebSearch: AI security news April 7 2026",
+    "WebSearch: Amazon Bedrock prompt injection multi-agent vulnerability Unit 42 2026",
+    "WebSearch: Microsoft AI device code phishing campaign April 2026",
+    "WebSearch: Sysdig AI coding agent detection Falco eBPF 2026"
+  ],
+  "entries": [
+    {
+      "title": "AI-Enabled Device Code Phishing Campaign Hits Microsoft 365 at Scale",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Microsoft Defender observed a widespread phishing campaign leveraging Device Code Authentication flow with AI-generated lures. Generative AI creates role-targeted emails (RFPs, invoices) while dynamic code generation bypasses the 15-minute device code expiration. Multi-stage delivery uses compromised Vercel, Cloudflare Workers, and AWS Lambda endpoints. Connected to the EvilTokens Phishing-as-a-Service toolkit enabling large-scale OAuth abuse.",
+      "keywords": ["device code phishing", "OAuth abuse", "EvilTokens", "PhaaS", "Microsoft 365", "AI-generated lures"],
+      "source": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/"
+    },
+    {
+      "title": "CrewAI Four-CVE Chain: Prompt Injection to RCE, SSRF, and File Read",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Four CVEs (CVE-2026-2275, CVE-2026-2287, CVE-2026-2285, CVE-2026-2286) in CrewAI's Code Interpreter Tool allow chaining prompt injection into full host compromise. CVE-2026-2275 exploits silent fallback from Docker to a vulnerable SandboxPython environment. CVE-2026-2287 allows mid-session Docker failure to revert to insecure mode. CVE-2026-2285 enables local file read through unvalidated JSON loader paths. CVE-2026-2286 permits SSRF via unvalidated RAG search URLs. No full patch released yet.",
+      "keywords": ["CrewAI", "CVE-2026-2275", "CVE-2026-2287", "CVE-2026-2285", "CVE-2026-2286", "sandbox escape", "RCE", "SSRF", "prompt injection"],
+      "source": "https://kb.cert.org/vuls/id/221883"
+    },
+    {
+      "title": "LiteLLM April 2026 Security Hardening: JWT Auth Bypass and Post-Supply-Chain Audit",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Following the March 2026 supply chain compromise (TeamPCP backdoor via poisoned Trivy CI/CD), LiteLLM released version 1.83.0 with fixes from a Veria Labs audit. CVE-2026-35030 (Critical) is a JWT authentication bypass affecting deployments with enable_jwt_auth enabled. CVE-2026-35029 and GHSA-69x8-hrgq-fjj8 (High) require valid API keys but allow privilege escalation. LiteLLM has launched a bug bounty program for ongoing hardening.",
+      "keywords": ["LiteLLM", "CVE-2026-35030", "CVE-2026-35029", "JWT bypass", "supply chain", "TeamPCP", "bug bounty"],
+      "source": "https://docs.litellm.ai/blog/security-hardening-april-2026"
+    },
+    {
+      "title": "LiteLLM PyPI Supply Chain Attack: TeamPCP Backdoors AI Gateway Used by 95M+ Monthly Downloads",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "On March 24, 2026, threat actor group TeamPCP published backdoored litellm versions 1.82.7 and 1.82.8 to PyPI after compromising Trivy GitHub Action in LiteLLM's CI/CD pipeline. A malicious .pth file (litellm_init.pth) executed automatically on every Python process startup, deploying a multi-stage credential stealer that exfiltrated SSL/SSH keys, cloud credentials, Kubernetes configs, Git credentials, API keys, shell history, and crypto wallets. Over 40,000 downloads occurred in the 40-minute window before PyPI quarantine. Mercor ($10B AI startup serving Anthropic, OpenAI, Meta) confirmed breach via this vector.",
+      "keywords": ["LiteLLM", "TeamPCP", "PyPI", "supply chain", "credential stealer", "Mercor", "Trivy"],
+      "source": "https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer"
+    },
+    {
+      "title": "OpenClaw CVE-2026-25253: One-Click RCE via WebSocket Hijacking Affects 135K+ Instances",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "CVE-2026-25253 (CVSS 8.8) is a cross-site WebSocket hijacking vulnerability in OpenClaw, a popular open-source AI agent framework with 346,000 GitHub stars. The Control UI blindly trusts a gatewayUrl parameter, leaking auth tokens to attackers when victims visit a malicious webpage. Attackers use stolen tokens to open direct WebSocket connections bypassing localhost protections, disable confirmation prompts, escape container sandboxes, and achieve full RCE. Over 135,000 internet-facing instances detected across 82 countries, with 15,000+ directly exploitable. Additionally, 335+ malicious skills found on ClawHub marketplace (12% of registry).",
+      "keywords": ["OpenClaw", "CVE-2026-25253", "WebSocket hijacking", "localhost trust", "RCE", "ClawHub", "malicious skills"],
+      "source": "https://www.darkreading.com/application-security/critical-openclaw-vulnerability-ai-agent-risks"
+    },
+    {
+      "title": "Unit 42: Eight Attack Vectors Inside Amazon Bedrock Multi-Agent Systems",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "Unit 42 red-teamed Amazon Bedrock's multi-agent collaboration capabilities, revealing a four-stage attack chain: system instruction extraction, tool schema disclosure, cross-agent prompt injection, and fraudulent tool invocations. Multi-agent architectures expand the attack surface through inter-agent communication channels. Amazon confirmed that Bedrock's built-in Guardrails block these attacks when properly configured, but the research highlights that many deployments lack proper guardrail configuration. Also discovered CVE-2026-4269 (High) in Bedrock AgentCore Starter Toolkit enabling code injection.",
+      "keywords": ["Amazon Bedrock", "multi-agent", "Unit 42", "prompt injection", "CVE-2026-4269", "tool invocation", "cross-agent attack"],
+      "source": "https://unit42.paloaltonetworks.com/amazon-bedrock-multiagent-applications/"
+    },
+    {
+      "title": "MCP Security Crisis: 30+ CVEs in 60 Days, Tool Poisoning Bypasses 72.8% of LLM Agents",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "The Model Context Protocol ecosystem accumulated 30+ CVEs between January and February 2026, ranging from path traversals to a CVSS 9.6 RCE. Tool poisoning attacks manipulate MCP tool descriptions to lure agents into executing unauthorized actions. The MCPTox benchmark tested 20 LLM agents against 45 real-world MCP servers and 353 tools -- o1-mini showed 72.8% attack success rate. More capable models are paradoxically more vulnerable because attacks exploit superior instruction-following abilities. Malicious MCP servers embed prompt injection in tool descriptions, bypassing content filters because descriptions are treated as trusted content.",
+      "keywords": ["MCP", "tool poisoning", "MCPTox", "CVE", "prompt injection", "instruction following"],
+      "source": "https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/"
+    },
+    {
+      "title": "Microsoft: Threat Actor AI Abuse Accelerates -- 450% Phishing Click-Through Increase",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "Microsoft's April 2026 report documents AI transitioning from a tool to an attack surface. AI-enhanced phishing shows 450% higher click-through rates. Tycoon2FA (Storm-1747) generated tens of millions of phishing emails monthly, linked to 100,000 compromised organizations and 62% of all phishing Microsoft blocks. AI is embedded across the full attack lifecycle: faster reconnaissance, better lures, polymorphic malware, and automated stolen data triage. The report marks the shift where AI is not just aiding attacks but becoming the attack surface itself.",
+      "keywords": ["Microsoft", "Tycoon2FA", "Storm-1747", "AI phishing", "MFA bypass", "attack surface"],
+      "source": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/"
+    },
+    {
+      "title": "CVE-2026-0628: Chrome Gemini Live Panel Hijack via Malicious Extensions",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "Unit 42 discovered CVE-2026-0628 (CVSS 8.8), an insufficient policy enforcement flaw in Chrome's WebView tag that allowed low-privilege extensions to hijack the Gemini Live side panel. Via the declarativeNetRequest API, a malicious extension could inject JavaScript into the privileged Gemini panel, inheriting its powerful capabilities including local file access, screenshots, and camera/microphone control. This represents a new class of 'agentic browser' attacks where AI assistant integration creates privilege escalation paths. Patched in Chrome 143.0.7499.192.",
+      "keywords": ["Chrome", "Gemini", "CVE-2026-0628", "WebView", "privilege escalation", "agentic browser"],
+      "source": "https://unit42.paloaltonetworks.com/gemini-live-in-chrome-hijacking/"
+    },
+    {
+      "title": "Sysdig TRT: Syscall-Level Detection Rules for AI Coding Agents (Claude Code, Gemini CLI, Codex CLI)",
+      "category": "defense",
+      "risk_level": "N/A",
+      "summary": "Sysdig Threat Research Team instrumented Claude Code, Gemini CLI, and Codex CLI at the syscall level using eBPF and published Falco detection rules. Each agent has a distinct process-level fingerprint: Claude Code runs as a bundled Bun binary, Gemini CLI as a Node.js script, and Codex CLI as a standalone Rust binary. Detection rules monitor config directory access (~/.claude/, ~/.gemini/, ~/.codex/) containing API tokens and session data. Four detection patterns identified enable runtime visibility into AI agent behavior on developer workstations and CI/CD environments.",
+      "keywords": ["Sysdig", "Falco", "eBPF", "Claude Code", "Gemini CLI", "Codex CLI", "runtime detection", "syscall"],
+      "source": "https://www.sysdig.com/blog/ai-coding-agents-are-running-on-your-machines-do-you-know-what-theyre-doing"
+    },
+    {
+      "title": "OWASP Top 10 for Agentic Applications 2026: Agent Goal Hijacking is #1 Risk",
+      "category": "defense",
+      "risk_level": "Critical",
+      "summary": "The OWASP Agentic AI Top 10 (ASI01-ASI10), peer-reviewed by 100+ security researchers, ranks Agent Goal Hijacking (ASI01) as the top risk. Attackers redirect agent objectives through poisoned inputs (emails, documents, web content) because agents cannot reliably distinguish instructions from data. Other critical risks include Rogue Agents (ASI10), Tool Misuse and Exploitation, and Identity and Privilege Abuse. 48% of cybersecurity professionals rank agentic AI as the #1 attack vector for 2026, yet only 34% of enterprises have AI-specific security controls. The framework advocates 'least agency' -- never giving agents more autonomy than the business problem justifies.",
+      "keywords": ["OWASP", "ASI01", "goal hijacking", "agentic AI", "rogue agents", "least agency"],
+      "source": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/"
+    },
+    {
+      "title": "Deepfake Voice Phishing Epidemic: 25% of Americans Targeted, $40B Projected Losses by 2027",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "Real-time AI voice cloning now defeats the most sophisticated voice biometrics systems. Over 10% of surveyed financial institutions suffered deepfake vishing attacks exceeding $1M per incident, with average losses of $600K. Open-source voice changer software on GitHub enables low-barrier attacks. Deloitte projects AI-enabled fraud losses reaching $40B by 2027 (32% CAGR from $12.3B in 2023). Financial industry groups have released coordinated plans to combat AI identity attacks, but 24% of Americans admit they cannot distinguish AI voice clones from real humans.",
+      "keywords": ["deepfake", "voice cloning", "vishing", "voice biometrics", "financial fraud", "social engineering"],
+      "source": "https://www.group-ib.com/blog/voice-deepfake-scams/"
+    },
+    {
+      "title": "AI Risk Management Confidence Gap: Organizations Less Prepared Than They Believe",
+      "category": "research",
+      "risk_level": "High",
+      "summary": "The State of AI Risk Management 2026 report reveals a widening disconnect between perceived AI security readiness and operational reality. While 83% of organizations plan to deploy agentic AI capabilities, only 29% report being ready to operate them securely. 92% of security leaders express concern about AI agent workforce use and its security implications. CEOs identify data leaks and adversarial capability advancement as top GenAI security concerns. The report highlights that AI governance infrastructure has not kept pace with deployment speed.",
+      "keywords": ["AI risk management", "confidence gap", "governance", "agentic AI readiness", "CISO"],
+      "source": "https://www.esecurityplanet.com/artificial-intelligence/the-state-of-ai-risk-management-in-2026-reveals-a-growing-confidence-gap/"
+    },
+    {
+      "title": "OWASP AI Security Solutions Landscape for Agentic AI Q2 2026",
+      "category": "tool",
+      "risk_level": "N/A",
+      "summary": "OWASP published its Q2 2026 landscape mapping of AI security solutions specifically for agentic AI. The landscape covers guardrails, runtime protection, identity management, observability, and red teaming tools across the emerging agentic AI security market. Key categories include agent governance toolkits (Microsoft Agent Governance Toolkit), continuous automated red teaming (Mindgard CART), open-source LLM testing (Promptfoo, Garak, PyRIT), and agent trust management platforms (Adversa AI, HiddenLayer, Lakera, Protect AI).",
+      "keywords": ["OWASP", "AI security landscape", "agentic AI", "guardrails", "red teaming", "CART"],
+      "source": "https://genai.owasp.org/resource/ai-security-solutions-landscape-for-agentic-ai-q2-2026/"
+    },
+    {
+      "title": "Adversa AI Wins RSA 2026 'Most Innovative Agentic AI Security' Award",
+      "category": "tool",
+      "risk_level": "N/A",
+      "summary": "Adversa AI was recognized as 'Most Innovative Agentic AI Security' platform at the RSA Conference 2026 Global InfoSec Awards. The platform provides AI red teaming capabilities for agents, LLMs, and GenAI applications. Their April 2026 resource roundup covers the OpenClaw crisis, Chrome Gemini hijacking, CrewAI CVE chain, and emerging defense frameworks including STSS (an open-source skill scanning layer using SHA-256 Merkle trees for cryptographic attestation of agent capabilities).",
+      "keywords": ["Adversa AI", "RSA 2026", "STSS", "Merkle tree", "skill attestation", "red teaming"],
+      "source": "https://adversa.ai/blog/top-agentic-ai-security-resources-april-2026/"
+    }
+  ]
+}

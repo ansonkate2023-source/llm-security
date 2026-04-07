@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-06
+**最後更新：** 2026-04-07
 
 ## 概述
 
@@ -30,6 +30,30 @@ AI 供應鏈攻擊在 2026 年急劇升級。LangChain 框架揭露多個嚴重 
 - 87% AI 生成的 PR 包含安全問題
 - 2026 年 3 月一週內揭露 35 個 AI 生成的漏洞
 - AI 擴充技能（skills/extensions）中超過 25% 包含至少一個漏洞
+
+### CrewAI 四 CVE 鏈接攻擊（2026-04）
+- **CVE-2026-2275** — SandboxPython fallback RCE：Docker 不可用時靜默降級至不安全環境
+- **CVE-2026-2287** — Docker 離線時中途靜默降級至不安全模式
+- **CVE-2026-2285** — JSON loader 未驗證路徑，允許本地檔案讀取
+- **CVE-2026-2286** — RAG 搜尋 URL 未驗證，導致 SSRF
+- 攻擊者透過 prompt injection 觸發 Code Interpreter Tool 完成鏈接，達成完整主機入侵
+- 尚無完整修補
+- 來源：[CERT/CC VU#221883](https://kb.cert.org/vuls/id/221883)
+
+### LiteLLM CVE-2026-35030 JWT 認證繞過（2026-04）
+- Critical JWT 認證機制繞過，允許未授權存取 LiteLLM Proxy
+- 影響啟用 `enable_jwt_auth` 的部署
+- v1.83.0 已修復，同時修復 CVE-2026-35029（權限提升）
+- LiteLLM 啟動 bug bounty 計畫
+- 來源：[LiteLLM Blog](https://docs.litellm.ai/blog/security-hardening-april-2026)
+
+### LiteLLM PyPI 供應鏈攻擊回顧（2026-03/04）
+- TeamPCP 透過投毒 Trivy GitHub Action 入侵 LiteLLM CI/CD pipeline
+- 發布含惡意 `.pth` 檔案的版本，每次 Python 進程啟動時自動執行
+- 40 分鐘內 40,000+ 下載，部署多階段憑證竊取器
+- 竊取 SSL/SSH 金鑰、雲端憑證、K8s 配置、Git 憑證
+- Mercor（$10B AI 新創）確認受影響
+- 來源：[Snyk](https://snyk.io/blog/poisoned-security-scanner-backdooring-litellm/) / [Sonatype](https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer) / [PyPI Blog](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/)
 
 ## 攻擊向量
 

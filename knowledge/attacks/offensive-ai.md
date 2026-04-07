@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-06
+**最後更新：** 2026-04-07
 
 ## 概述
 
@@ -51,6 +51,20 @@
 - 義大利國防部長語音複製詐騙 — 至少一名受害者轉帳近 100 萬歐元
 - $25M 深偽視訊通話詐騙案
 - **來源：** [Group-IB](https://www.group-ib.com/blog/voice-deepfake-scams/) / [Security Boulevard](https://securityboulevard.com/2026/03/the-25-million-deepfake-why-your-video-calls-can-no-longer-be-trusted/)
+
+### 6. AI 驅動 Device Code Phishing（2026-04-06）
+- Microsoft 揭露大規模攻擊活動，利用 GenAI 生成角色針對性釣魚郵件（RFP、發票主題）
+- 動態 device code 生成繞過 15 分鐘過期限制
+- 透過 Vercel/Cloudflare Workers/AWS Lambda 多級跳轉基礎設施
+- 與 EvilTokens PhaaS（Phishing-as-a-Service）工具包關聯
+- 影響 Microsoft 365 組織，尤其是財務和高管角色
+- **來源：** [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/)
+
+### 7. 深偽語音釣魚流行病（2026 更新數據）
+- 25% 美國人已成為深偽語音釣魚目標
+- 10%+ 金融機構遭受超過 $1M 損失
+- Deloitte 預測 2027 年 AI 詐欺損失達 $40B
+- Tycoon2FA 每月生成數千萬 AI 增強釣魚郵件
 
 ## 威脅者 AI 採用
 
