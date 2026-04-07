@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-07
+**最後更新：** 2026-04-08
 
 ## 概述
 
@@ -39,6 +39,13 @@
 - AI agent 以最少人工介入執行複雜攻擊序列
 - 已有記錄案例：AI 系統自主執行 80-90% 的精密網路間諜活動
 - **來源：** [Dark Reading](https://www.darkreading.com/cyber-risk/cybersecurity-predictions-2026-an-ai-arms-race-and-malware-autonomy)
+
+### 3a. AI 多態惡意軟體 PROMPTFLUX / PROMPTSTEAL（2026-04 Mandiant）
+- **PROMPTFLUX：** 使用 Gemini API 定期重寫自身原始碼（JIT 修改技術），持續變異以規避特徵偵測。發現於 2025-06，至 2026 已進入實戰
+- **PROMPTSTEAL（APT28 關聯）：** 查詢 LLM 生成 Windows 命令竊取機密文件
+- **關鍵演進：** 從「人在迴路」靜態使用 → 「完全自主」多階段攻擊（偵察→利用→持久化）
+- **偵測困難度：** 傳統特徵偵測完全失效，需行為分析 + LLM API 呼叫監控 + 異常流量偵測
+- **來源：** [Google Cloud](https://cloud.google.com/security/resources/ai-risk-and-resilience) / [GBHackers](https://gbhackers.com/ai-driven-adaptive-malware/)
 
 ### 4. 漏洞利用自動生成
 - AI 可在 10-15 分鐘內生成可用的 CVE 漏洞利用

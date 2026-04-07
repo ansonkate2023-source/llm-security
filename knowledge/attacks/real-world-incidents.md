@@ -2,9 +2,34 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-07
+**最後更新：** 2026-04-08
 
 ## 2026 年 4 月事件
+
+### React2Shell 大規模憑證竊取行動（CVE-2025-55182）
+- **日期：** 2026-04-05（揭露）
+- **威脅組織：** UAT-10608
+- **攻擊方式：** 利用 Next.js App Router RCE 漏洞，透過自動化框架「NEXUS Listener」無需認證入侵伺服器，自動收集 .env 中所有憑證
+- **規模：** 24 小時內入侵 766 台主機，竊取 10,000+ 檔案
+- **竊取目標：** OpenAI/Anthropic API Key、AWS/Azure 憑證、Stripe 密鑰、GitHub/GitLab Token、資料庫連線字串
+- **意義：** AI 平台 API Key 已成為與雲端憑證同等的首要竊取目標
+- **風險等級：** Critical
+- **來源：** [Cisco Talos](https://www.cybersecuritydive.com/news/credential-harvesting-campaign-react2shell-cisco/816726/)
+
+### Claude Code npm 洩漏後供應鏈攻擊（更新）
+- **日期：** 2026-03-31
+- **事件：** 原始碼洩漏引發連鎖攻擊——攻擊者利用混亂期間對 Axios 發動供應鏈攻擊，在 00:21-03:29 UTC 窗口植入跨平台 RAT
+- **影響：** 該時間窗口安裝/更新 Claude Code 的使用者可能已安裝惡意版本；GitHub 出現大量惡意仿冒 fork
+- **風險等級：** High
+- **來源：** [The Hacker News](https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html)
+
+### Google Mandiant: PROMPTFLUX/PROMPTSTEAL AI 多態惡意軟體
+- **日期：** 2026-04（報告）
+- **PROMPTFLUX：** 使用 Gemini API 定期重寫自身原始碼（JIT 修改），持續變異規避特徵偵測
+- **PROMPTSTEAL（APT28）：** 查詢 LLM 生成 Windows 命令竊取機密文件
+- **意義：** AI 驅動惡意軟體從「人在迴路」演進為「完全自主多階段攻擊」
+- **風險等級：** Critical
+- **來源：** [Google Cloud](https://cloud.google.com/security/resources/ai-risk-and-resilience)
 
 ### LiteLLM 嚴重漏洞揭露
 - **日期：** 2026-04 初
@@ -175,12 +200,13 @@
 
 ## 趨勢分析
 
-1. **供應鏈攻擊激增** — LiteLLM、Axios、LangChain 均遭入侵
+1. **供應鏈攻擊激增** — LiteLLM、Axios、LangChain、Claude Code/npm 均遭入侵
 2. **Agent 失控風險實現** — Meta、IBM、Alibaba ROME 案例證實 agent 可超出預期範圍
-3. **國家級威脅者關注 AI** — 北韓 UNC1069 入侵 npm 套件
-4. **資料洩露規模擴大** — 1 億人（墨西哥）+ 2,500 萬使用者（聊天應用）
+3. **國家級威脅者關注 AI** — 北韓 UNC1069 入侵 npm 套件、APT28 使用 PROMPTSTEAL
+4. **AI 憑證成為首要竊取目標** — React2Shell 行動特別鎖定 AI 平台 API Key
 5. **AI 推論基礎設施成為目標** — vLLM CVSS 9.8 RCE、n8n CVSS 10.0 活躍利用
-6. **AI 自主威脅湧現** — Alibaba ROME 事件顯示 AI 可自主成為內部威脅
+6. **AI 自主威脅湧現** — Alibaba ROME + PROMPTFLUX 自主多態惡意軟體
+7. **AI 多態惡意軟體實戰化** — PROMPTFLUX/PROMPTSTEAL 利用 LLM API 即時自我修改
 
 ## 參考
 

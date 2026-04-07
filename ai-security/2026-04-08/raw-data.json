@@ -1,0 +1,131 @@
+{
+  "date": "2026-04-08",
+  "collection_time": "2026-04-08T00:00:00Z",
+  "items": [
+    {
+      "title": "React2Shell 大規模憑證竊取行動 — UAT-10608",
+      "category": "attack",
+      "risk_level": "Critical",
+      "cve": "CVE-2025-55182",
+      "summary": "威脅組織 UAT-10608 利用 Next.js App Router RCE 漏洞，透過自動化框架 NEXUS Listener 入侵 766+ 台主機，竊取 AI 平台 API Key、雲端憑證等 10,000+ 檔案",
+      "affected_systems": ["Next.js", "React Server Components", "OpenAI", "Anthropic", "AWS", "Azure"],
+      "keywords": ["React2Shell", "credential harvesting", "NEXUS Listener", "UAT-10608", "supply chain"],
+      "sources": [
+        "https://www.cybersecuritydive.com/news/credential-harvesting-campaign-react2shell-cisco/816726/",
+        "https://www.securityweek.com/react2shell-exploited-in-large-scale-credential-harvesting-campaign/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/"
+      ]
+    },
+    {
+      "title": "Microsoft Agent Governance Toolkit 開源發布",
+      "category": "defense",
+      "risk_level": "Info",
+      "summary": "Microsoft 發布首個覆蓋 OWASP Agentic AI Top 10 全部十項風險的開源治理框架，七模組系統支援 Python/Rust/TypeScript/Go/.NET，子毫秒級確定性策略執行",
+      "affected_systems": ["AI Agents", "OpenAI Agents SDK", "LangGraph", "Haystack", "PydanticAI"],
+      "keywords": ["Agent Governance", "OWASP", "runtime security", "policy enforcement", "open source"],
+      "sources": [
+        "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/",
+        "https://github.com/microsoft/agent-governance-toolkit"
+      ]
+    },
+    {
+      "title": "Google Mandiant: AI 多態惡意軟體 PROMPTFLUX / PROMPTSTEAL",
+      "category": "attack",
+      "risk_level": "Critical",
+      "summary": "PROMPTFLUX 使用 Gemini API 即時重寫自身程式碼實現多態變異。PROMPTSTEAL（APT28 關聯）查詢 LLM 生成 Windows 命令竊取機密。標誌 AI 驅動惡意軟體進入自主攻擊階段",
+      "affected_systems": ["Endpoint protection", "Gemini API", "Windows"],
+      "keywords": ["PROMPTFLUX", "PROMPTSTEAL", "APT28", "polymorphic malware", "LLM API abuse", "JIT code generation"],
+      "sources": [
+        "https://cloud.google.com/security/resources/ai-risk-and-resilience",
+        "https://gbhackers.com/ai-driven-adaptive-malware/",
+        "https://siliconangle.com/2026/04/03/deepfakes-malware-ai-menu-grows-longer-threat-actors-causing-headaches-defenders/"
+      ]
+    },
+    {
+      "title": "Anthropic Claude Code npm 洩漏後供應鏈攻擊",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "Claude Code 513K 行原始碼因 npm source map 打包錯誤洩漏後，攻擊者利用混亂期間對 Axios 發動供應鏈攻擊，植入跨平台 RAT。部分使用者在 3 小時窗口期間可能安裝惡意版本",
+      "affected_systems": ["npm", "Claude Code", "Axios"],
+      "keywords": ["Claude Code", "npm leak", "source map", "supply chain", "RAT", "Axios"],
+      "sources": [
+        "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+        "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
+      ]
+    },
+    {
+      "title": "LangChain / LangGraph 三漏洞暴露企業資料",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "三個獨立漏洞分別允許讀取檔案系統、竊取環境變數密鑰、存取對話歷史，提供獨立攻擊路徑從企業 LangChain 部署竊取敏感資料",
+      "affected_systems": ["LangChain", "LangGraph"],
+      "keywords": ["LangChain", "LangGraph", "file disclosure", "secret leakage", "conversation history"],
+      "sources": [
+        "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html"
+      ]
+    },
+    {
+      "title": "vLLM 四月新增多個 CVE",
+      "category": "attack",
+      "risk_level": "High",
+      "cve": ["CVE-2026-27893", "CVE-2026-22778"],
+      "summary": "CVE-2026-27893（CVSS 8.8）硬編碼 trust_remote_code 繞過使用者設定實現 RCE。另新增 DoS（無界影片幀計數）、SSRF（download_bytes_from_url）、OOM（n 參數）等多個漏洞",
+      "affected_systems": ["vLLM"],
+      "keywords": ["vLLM", "trust_remote_code bypass", "SSRF", "DoS", "OOM"],
+      "sources": [
+        "https://advisories.gitlab.com/pkg/pypi/vllm/CVE-2026-27893/",
+        "https://orca.security/resources/blog/cve-2026-22778-vllm-rce-vulnerability/",
+        "https://github.com/vllm-project/vllm/security/advisories"
+      ]
+    },
+    {
+      "title": "MCP 伺服器 36.7% SSRF 漏洞率",
+      "category": "attack",
+      "risk_level": "High",
+      "summary": "BlueRock Security 掃描 7,000+ MCP 伺服器發現 36.7% 存在 SSRF 漏洞。Adversa AI 發現 Claude Code deny rules 在 50 個子命令後靜默失效。MCP 生態 60 天累積 30+ CVE",
+      "affected_systems": ["MCP servers", "Claude Code"],
+      "keywords": ["MCP", "SSRF", "deny rules bypass", "tool poisoning"],
+      "sources": [
+        "https://adversa.ai/blog/top-mcp-security-resources-april-2026/",
+        "https://www.heyuan110.com/posts/ai/2026-03-10-mcp-security-2026/"
+      ]
+    },
+    {
+      "title": "ProvenanceGuard / RAG2RAG 防禦框架",
+      "category": "defense",
+      "risk_level": "Info",
+      "summary": "IEEE TIFS 發表來源錨定檢索完整性框架（120K 文件 / 12K 對抗樣本）。AAAI 2026 RAG2RAG 以 Detective+Judge 雙模組實現跨 7 種投毒攻擊高效防禦",
+      "affected_systems": ["RAG systems"],
+      "keywords": ["ProvenanceGuard", "RAG2RAG", "retrieval poisoning defense", "provenance integrity"],
+      "sources": [
+        "https://ieee-dataport.org/documents/provenanceguard-rag-retrieval-poisoning-defense-evaluation-dataset",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/40462"
+      ]
+    },
+    {
+      "title": "Colorado AI Act 6/30 生效倒數",
+      "category": "defense",
+      "risk_level": "Medium",
+      "summary": "美國首部綜合性 AI 法規 Colorado AI Act 將於 6/30 生效，要求高風險 AI 系統開發者與部署者履行影響評估、風險管理、消費者通知等義務，無責任安全港",
+      "affected_systems": ["High-risk AI systems", "AI deployers", "AI developers"],
+      "keywords": ["Colorado AI Act", "SB24-205", "algorithmic discrimination", "impact assessment", "compliance"],
+      "sources": [
+        "https://www.clarkhill.com/news-events/news/colorados-ai-law-delayed-until-june-2026-what-the-latest-setback-means-for-businesses/",
+        "https://www.bhfs.com/insight/colorados-landmark-ai-law-coming-online-what-developers-and-deployers-should-know/"
+      ]
+    },
+    {
+      "title": "Langflow CVE-2026-33017 — 20 小時內遭利用",
+      "category": "attack",
+      "risk_level": "Critical",
+      "cve": "CVE-2026-33017",
+      "summary": "Langflow 缺少認證 + 程式碼注入漏洞允許未授權 RCE，攻擊者控制的 flow data 直接傳入 exec() 無沙箱保護。揭露 20 小時內即遭利用，CISA 列入 KEV",
+      "affected_systems": ["Langflow"],
+      "keywords": ["Langflow", "code injection", "exec()", "CISA KEV", "zero-day exploitation"],
+      "sources": [
+        "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+        "https://threatprotect.qualys.com/2026/03/26/cisa-added-langflow-vulnerability-to-its-known-exploited-vulnerabilities-catalog-cve-2026-33017/"
+      ]
+    }
+  ]
+}

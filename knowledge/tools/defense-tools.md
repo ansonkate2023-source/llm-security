@@ -1,7 +1,7 @@
 # AI 防禦工具與平台
 
 **分類：** tool
-**最後更新：** 2026-04-07
+**最後更新：** 2026-04-08
 
 ## Agent 治理與安全
 
@@ -9,11 +9,12 @@
 - **類型：** 開源
 - **發布：** 2026-04-02
 - **功能：** 涵蓋 OWASP Agentic AI Top 10 所有風險的運行時安全治理
-- **特點：** 無狀態策略引擎（< 0.1ms 延遲）、DID 身份、執行環、斷路器
-- **整合：** LangChain、CrewAI、Microsoft Agent Framework
+- **架構：** 七模組 — Agent OS（策略引擎）、Agent Mesh（A2A 通訊）、Agent Runtime（動態執行環）、Agent SRE（可靠性）、Agent Compliance（合規驗證）、Agent Marketplace（插件生命週期）、Agent Lightning（RL 訓練治理）
+- **特點：** 無狀態策略引擎（< 0.1ms 延遲）、DID 身份、執行環、斷路器、確定性策略執行
+- **覆蓋風險：** 目標劫持、工具濫用、身份濫用、供應鏈、程式碼執行、記憶投毒、不安全通訊、級聯故障、人機信任利用、流氓 Agent
+- **整合：** OpenAI Agents SDK、Haystack、LangGraph、PydanticAI（已發布至 PyPI）、LangChain、CrewAI
 - **語言支援：** Python、TypeScript、Rust、Go、.NET
-- **新增整合：** OpenAI Agents SDK、Haystack、LangGraph、PydanticAI（已發布至 PyPI）
-- **來源：** [Microsoft Open Source Blog](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/) / [Help Net Security](https://www.helpnetsecurity.com/2026/04/03/microsoft-ai-agent-governance-toolkit/)
+- **來源：** [Microsoft Open Source Blog](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/) / [GitHub](https://github.com/microsoft/agent-governance-toolkit)
 
 ## 沙箱與隔離
 

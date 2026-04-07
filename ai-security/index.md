@@ -4,6 +4,7 @@
 
 | 日期 | 報告 | 重點 |
 |------|------|------|
+| 2026-04-08 | [daily-report.md](2026-04-08/daily-report.md) | React2Shell 766 主機憑證竊取、AI 多態惡意軟體 PROMPTFLUX、MS Agent Governance Toolkit、Claude Code 供應鏈攻擊、MCP 36.7% SSRF |
 | 2026-04-07 | [daily-report.md](2026-04-07/daily-report.md) | CrewAI 四 CVE 鏈接 RCE、LiteLLM JWT 繞過、AI Device Code Phishing、MCP 工具投毒、Bedrock 多 Agent 攻擊 |
 | 2026-04-06 | [daily-report.md](2026-04-06/daily-report.md) | Prompt injection 激增 340%、MCP 30+ CVE、LRM 自主 jailbreak、AI Agent 安全危機 |
 

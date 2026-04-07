@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-07
+**最後更新：** 2026-04-08
 
 ## 概述
 
@@ -54,6 +54,20 @@ AI 供應鏈攻擊在 2026 年急劇升級。LangChain 框架揭露多個嚴重 
 - 竊取 SSL/SSH 金鑰、雲端憑證、K8s 配置、Git 憑證
 - Mercor（$10B AI 新創）確認受影響
 - 來源：[Snyk](https://snyk.io/blog/poisoned-security-scanner-backdooring-litellm/) / [Sonatype](https://www.sonatype.com/blog/compromised-litellm-pypi-package-delivers-multi-stage-credential-stealer) / [PyPI Blog](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/)
+
+### React2Shell 大規模 AI 憑證竊取（2026-04）
+- **CVE-2025-55182** — Next.js App Router RCE
+- 威脅組織 UAT-10608 使用「NEXUS Listener」自動化框架
+- 24 小時內入侵 766+ 主機，竊取 10,000+ 檔案
+- 特別鎖定 AI 平台 API Key（OpenAI、Anthropic）與雲端憑證
+- AI 服務憑證已與 AWS/Azure 憑證並列為首要竊取目標
+- 來源：[Cisco Talos](https://www.cybersecuritydive.com/news/credential-harvesting-campaign-react2shell-cisco/816726/)
+
+### Claude Code npm 洩漏後供應鏈攻擊（2026-03/04）
+- Anthropic 因 .npmignore 未排除 source map，洩漏 513K 行完整原始碼
+- 攻擊者利用混亂期間對 Axios 植入跨平台 RAT（00:21-03:29 UTC 窗口）
+- GitHub 出現大量惡意仿冒 fork（84K+ stars 鏡像）
+- 來源：[Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/)
 
 ## 攻擊向量
 
