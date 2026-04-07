@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-06
+**最後更新：** 2026-04-07
 
 ## 概述
 
@@ -36,10 +36,21 @@ LLM jailbreak 技術在 2024-2026 年間持續進化，自動化框架（如 JBF
 - 所有 LLM（包含 GPT-4o、Gemini 2.0、Claude、DeepSeek）
 - 視覺語言模型（VLM）
 
+### 6. Context Compliance Attack（CCA）— 零優化 Jailbreak
+- Microsoft 研究員 Mark Russinovich 等人提出
+- 利用 LLM 對客戶端對話歷史缺乏完整性驗證的設計缺陷
+- 偽造 AI 先前「同意」提供有害資訊的假對話歷史，再要求 AI 兌現「承諾」
+- 對所有測試模型（LLaMA 2 除外）達接近 100% 成功率，通常一次嘗試即成功
+- promptfoo 已整合為紅隊插件
+- **防禦：** 伺服器端對話歷史維護 + 對話記錄數位簽章
+- **來源：** [Microsoft MSRC](https://msrc.microsoft.com/blog/2025/03/jailbreaking-is-mostly-simpler-than-you-think/) / [arXiv](https://arxiv.org/html/2503.05264v1)
+
 ## 防禦策略
 
 - RLM-JB 偵測框架（[Silverfort](https://www.silverfort.com/blog/rlm-jb-a-new-approach-to-ai-jailbreak-detection/)）
 - 可更新的安全基準測試（[JHU](https://hub.jhu.edu/2026/03/11/efficient-ai-safety-testing/)）
+- SafeProbing — 解碼時安全意識探測防禦（[arXiv:2601.10543](https://arxiv.org/abs/2601.10543)）
+- DefensiveTokens — 測試時 prompt injection 防禦，0.24% ASR（[ACM AISec 2026](https://dl.acm.org/doi/10.1145/3733799.3762982)）
 - 多層安全護欄
 - 持續紅隊測試
 

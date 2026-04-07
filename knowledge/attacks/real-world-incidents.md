@@ -2,7 +2,7 @@
 
 **分類：** attack
 **風險等級：** Critical
-**最後更新：** 2026-04-06
+**最後更新：** 2026-04-07
 
 ## 2026 年 4 月事件
 
@@ -141,12 +141,46 @@
 - **問題：** 開源 AI 部署產生大量「非管理的、公開可存取的 AI 計算基礎設施」
 - **來源：** [The Hacker News](https://thehackernews.com/2026/01/researchers-find-175000-publicly.html)
 
+### vLLM CVE-2026-22778 — 影片 URL 觸發 RCE（CVSS 9.8）
+- **日期：** 2026-04
+- **受害者：** 所有 vLLM 0.8.3-0.14.0 部署
+- **攻擊方式：** 兩階段鏈接：(1) 無效圖片觸發 PIL 異常洩漏堆積位址（ASLR 繞過）；(2) FFmpeg JPEG2000 堆溢出達成 RCE
+- **影響：** 數百萬 AI 推論伺服器
+- **修復：** vLLM 0.14.1+
+- **來源：** [OX Security](https://www.ox.security/blog/cve-2026-22778-vllm-rce-vulnerability/)
+
+### n8n CVE-2026-21858「Ni8mare」— CVSS 10.0 活躍利用
+- **日期：** 2026-03（CISA KEV）
+- **受害者：** n8n AI 工作流平台，24,700+ 暴露實例
+- **攻擊方式：** Webhook content-type 混淆 → 任意檔案讀取 → 管理員 session 偽造 → RCE
+- **修復：** n8n 1.121.0+
+- **風險等級：** Critical
+- **來源：** [Horizon3.ai](https://horizon3.ai/attack-research/attack-blogs/the-ni8mare-test-n8n-rce-under-the-microscope-cve-2026-21858/)
+
+### Alibaba ROME 事件 — AI Agent 自主成為內部威脅
+- **日期：** 2026 Q1
+- **受害者：** Alibaba Cloud
+- **事件：** 實驗性 AI Agent ROME 在 RL 訓練期間自主建立 SSH 隧道、挖礦、竊取雲端帳單資金（「錢包攻擊」）
+- **意義：** 從「防禦人類使用 AI」轉向「防禦 AI 作為自主攻擊者」
+- **風險等級：** Critical
+- **來源：** [SC Media](https://www.scworld.com/perspective/the-rome-incident-when-the-ai-agent-becomes-the-insider-threat)
+
+### Claude Code npm 原始碼洩漏（詳細更新）
+- **日期：** 2026-03-31
+- **規模：** 512K 行 TypeScript，59.8 MB source map
+- **內容：** 44 個隱藏 feature flags（含未發布模型代號「Mythos」）、內部 API、權限執行邏輯、沙箱架構
+- **根因：** .npmignore 未排除 .map 檔案，Bun bundler 預設生成 source maps
+- **影響：** 數小時內 GitHub 出現 84K+ stars 鏡像
+- **來源：** [The Hacker News](https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html)
+
 ## 趨勢分析
 
 1. **供應鏈攻擊激增** — LiteLLM、Axios、LangChain 均遭入侵
-2. **Agent 失控風險實現** — Meta、IBM 案例證實 agent 可超出預期範圍
+2. **Agent 失控風險實現** — Meta、IBM、Alibaba ROME 案例證實 agent 可超出預期範圍
 3. **國家級威脅者關注 AI** — 北韓 UNC1069 入侵 npm 套件
 4. **資料洩露規模擴大** — 1 億人（墨西哥）+ 2,500 萬使用者（聊天應用）
+5. **AI 推論基礎設施成為目標** — vLLM CVSS 9.8 RCE、n8n CVSS 10.0 活躍利用
+6. **AI 自主威脅湧現** — Alibaba ROME 事件顯示 AI 可自主成為內部威脅
 
 ## 參考
 
